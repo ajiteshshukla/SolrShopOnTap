@@ -1,0 +1,249 @@
+INFO  - 2015-09-01 10:55:09.013; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @339ms
+INFO  - 2015-09-01 10:55:09.238; [   ] org.eclipse.jetty.server.Server; jetty-9.2.11.v20150529
+WARN  - 2015-09-01 10:55:09.261; [   ] org.eclipse.jetty.server.handler.RequestLogHandler; !RequestLog
+INFO  - 2015-09-01 10:55:09.263; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/contexts/] at interval 0
+INFO  - 2015-09-01 10:55:09.731; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+WARN  - 2015-09-01 10:55:09.742; [   ] org.eclipse.jetty.security.ConstraintSecurityHandler; ServletContext@o.e.j.w.WebAppContext@51565ec2{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+INFO  - 2015-09-01 10:55:09.749; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init(): WebAppClassLoader=1157740463@4501b7af
+INFO  - 2015-09-01 10:55:09.767; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-09-01 10:55:09.767; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr
+INFO  - 2015-09-01 10:55:09.771; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/'
+INFO  - 2015-09-01 10:55:09.916; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/solr.xml
+INFO  - 2015-09-01 10:55:09.988; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr
+INFO  - 2015-09-01 10:55:10.012; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 68377659
+INFO  - 2015-09-01 10:55:10.013; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/]
+INFO  - 2015-09-01 10:55:10.013; [   ] org.apache.solr.core.CoreContainer; loading shared library: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/lib
+WARN  - 2015-09-01 10:55:10.013; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/lib).
+INFO  - 2015-09-01 10:55:10.032; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+INFO  - 2015-09-01 10:55:10.237; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2015-09-01 10:55:10.239; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-09-01 10:55:10.240; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-09-01 10:55:10.241; [   ] org.apache.solr.core.CoreContainer; Security conf doesn't exist. Skipping setup for authorization module.
+INFO  - 2015-09-01 10:55:10.242; [   ] org.apache.solr.core.CoreContainer; No authentication plugin used.
+INFO  - 2015-09-01 10:55:10.301; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr
+INFO  - 2015-09-01 10:55:10.301; [   ] org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2015-09-01 10:55:10.304; [   ] org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server
+INFO  - 2015-09-01 10:55:10.304; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-09-01 10:55:10.314; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@51565ec2{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}
+INFO  - 2015-09-01 10:55:10.332; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@36916eb0{HTTP/1.1}{0.0.0.0:8983}
+INFO  - 2015-09-01 10:55:10.332; [   ] org.eclipse.jetty.server.Server; Started @1660ms
+INFO  - 2015-09-01 10:55:14.641; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=50 
+INFO  - 2015-09-01 10:55:14.689; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=techproducts&action=STATUS&wt=json} status=0 QTime=1 
+INFO  - 2015-09-01 10:55:14.707; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=12 
+INFO  - 2015-09-01 10:55:14.727; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=12 
+INFO  - 2015-09-01 10:55:14.736; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=techproducts&action=STATUS&wt=json} status=0 QTime=0 
+INFO  - 2015-09-01 10:55:14.869; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=techproducts&action=CREATE&instanceDir=techproducts&wt=json
+INFO  - 2015-09-01 10:55:14.874; [   ] org.apache.solr.core.CoreDescriptor; Created CoreDescriptor: {name=techproducts, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=techproducts, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/, dataDir=data/}
+INFO  - 2015-09-01 10:55:14.876; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/'
+INFO  - 2015-09-01 10:55:14.989; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : -1
+INFO  - 2015-09-01 10:55:14.995; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-09-01 10:55:14.997; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-09-01 10:55:14.998; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-09-01 10:55:14.998; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-09-01 10:55:14.999; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-09-01 10:55:14.999; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-09-01 10:55:14.999; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.000; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.000; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-09-01 10:55:15.000; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.001; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-09-01 10:55:15.001; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.002; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.002; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-09-01 10:55:15.003; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.003; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-09-01 10:55:15.003; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-09-01 10:55:15.004; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-09-01 10:55:15.004; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-09-01 10:55:15.005; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-09-01 10:55:15.005; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-09-01 10:55:15.005; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-09-01 10:55:15.006; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.006; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.007; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.007; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.008; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.008; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.008; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-09-01 10:55:15.009; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-09-01 10:55:15.009; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.009; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.010; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-09-01 10:55:15.010; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-09-01 10:55:15.012; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.013; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.013; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.014; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-09-01 10:55:15.014; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-09-01 10:55:15.015; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-09-01 10:55:15.015; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.015; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-09-01 10:55:15.016; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.017; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.018; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.018; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-09-01 10:55:15.019; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.020; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-09-01 10:55:15.021; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-09-01 10:55:15.021; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-09-01 10:55:15.022; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.023; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+INFO  - 2015-09-01 10:55:15.110; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-09-01 10:55:15.120; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.3.0
+INFO  - 2015-09-01 10:55:15.246; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-09-01 10:55:15.256; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf/schema.xml
+INFO  - 2015-09-01 10:55:15.319; [   ] org.apache.solr.schema.IndexSchema; [techproducts] Schema name=example
+INFO  - 2015-09-01 10:55:15.791; [   ] org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-09-01 10:55:15.805; [   ] org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2015-09-01 10:55:15.806; [   ] org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2015-09-01 10:55:15.873; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-09-01 10:55:15.877; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-09-01 10:55:15.989; [   ] org.apache.solr.core.ConfigSetProperties; Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf'
+INFO  - 2015-09-01 10:55:15.990; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'techproducts' using configuration from instancedir /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/
+INFO  - 2015-09-01 10:55:15.991; [   x:techproducts] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2015-09-01 10:55:16.011; [   x:techproducts] org.apache.solr.core.SolrCore; [[techproducts] ] Opening new SolrCore at [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/], dataDir=[null]
+INFO  - 2015-09-01 10:55:16.013; [   x:techproducts] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2015-09-01 10:55:16.018; [   x:techproducts] org.apache.solr.core.SolrCore; [[techproducts] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+INFO  - 2015-09-01 10:55:16.019; [   x:techproducts] org.apache.solr.core.SolrCore; [[techproducts] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+INFO  - 2015-09-01 10:55:16.034; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data
+INFO  - 2015-09-01 10:55:16.035; [   x:techproducts] org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index/
+WARN  - 2015-09-01 10:55:16.036; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Solr index directory '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index' doesn't exist. Creating new index...
+INFO  - 2015-09-01 10:55:16.049; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index
+INFO  - 2015-09-01 10:55:16.091; [   x:techproducts] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@78fd87b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-09-01 10:55:16.092; [   x:techproducts] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-09-01 10:55:16.095; [   x:techproducts] org.apache.solr.core.SolrCore$12; Looking for old index directories to cleanup for core techproducts in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/
+INFO  - 2015-09-01 10:55:16.100; [   x:techproducts] org.apache.solr.core.PluginBag; queryResponseWriter : 'velocity' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.106; [   x:techproducts] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2015-09-01 10:55:16.232; [   x:techproducts] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-09-01 10:55:16.263; [   x:techproducts] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-09-01 10:55:16.266; [   x:techproducts] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-09-01 10:55:16.267; [   x:techproducts] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-09-01 10:55:16.267; [   x:techproducts] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-09-01 10:55:16.283; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/update/extract' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.283; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.283; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.286; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/spell' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.286; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/suggest' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.286; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/tvrh' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.287; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.287; [   x:techproducts] org.apache.solr.core.PluginBag; requestHandler : '/elevate' created with startup=lazy 
+INFO  - 2015-09-01 10:55:16.288; [   x:techproducts] org.apache.solr.core.RequestHandlers; Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+INFO  - 2015-09-01 10:55:16.291; [   x:techproducts] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2015-09-01 10:55:16.301; [   x:techproducts] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2015-09-01 10:55:16.301; [   x:techproducts] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2015-09-01 10:55:16.309; [   x:techproducts] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2015-09-01 10:55:16.309; [   x:techproducts] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-09-01 10:55:16.316; [   x:techproducts] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@78fd87b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-09-01 10:55:16.316; [   x:techproducts] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-09-01 10:55:16.327; [   x:techproducts] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3f606f43[techproducts] main
+INFO  - 2015-09-01 10:55:16.333; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.333; [   x:techproducts] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf}
+INFO  - 2015-09-01 10:55:16.335; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.336; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.336; [   x:techproducts] org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2015-09-01 10:55:16.336; [   x:techproducts] org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2015-09-01 10:55:16.337; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.338; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.338; [   x:techproducts] org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2015-09-01 10:55:16.338; [   x:techproducts] org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2015-09-01 10:55:16.339; [   x:techproducts] org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2015-09-01 10:55:16.340; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.340; [   x:techproducts] org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf
+INFO  - 2015-09-01 10:55:16.340; [   x:techproducts] org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2015-09-01 10:55:16.341; [   x:techproducts] org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2015-09-01 10:55:16.342; [   x:techproducts] org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2015-09-01 10:55:16.347; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2015-09-01 10:55:16.353; [   x:techproducts] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2015-09-01 10:55:16.359; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2015-09-01 10:55:16.360; [   x:techproducts] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2015-09-01 10:55:16.363; [   x:techproducts] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+INFO  - 2015-09-01 10:55:16.382; [   x:techproducts] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+INFO  - 2015-09-01 10:55:16.384; [   x:techproducts] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/conf/elevate.xml
+INFO  - 2015-09-01 10:55:16.402; [   x:techproducts] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2015-09-01 10:55:16.406; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3f606f43[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-09-01 10:55:16.408; [   x:techproducts] org.apache.solr.update.UpdateLog; Looking up max value of version field to seed version buckets
+INFO  - 2015-09-01 10:55:16.408; [   x:techproducts] org.apache.solr.update.VersionInfo; Refreshing highest value of _version_ for 65536 version buckets from index
+INFO  - 2015-09-01 10:55:16.409; [   x:techproducts] org.apache.solr.update.VersionInfo; No terms found for _version_, cannot seed version bucket highest value from index
+INFO  - 2015-09-01 10:55:16.409; [   x:techproducts] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1511108028828483584
+INFO  - 2015-09-01 10:55:16.417; [   x:techproducts] org.apache.solr.update.UpdateLog; Took 8 ms to seed version buckets with highest version 1511108028828483584
+INFO  - 2015-09-01 10:55:16.419; [   x:techproducts] org.apache.solr.core.CoreContainer; registering core: techproducts
+INFO  - 2015-09-01 10:55:16.426; [   x:techproducts] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={name=techproducts&action=CREATE&instanceDir=techproducts&wt=json} status=0 QTime=1557 
+INFO  - 2015-09-01 10:55:16.465; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=57 
+INFO  - 2015-09-01 10:55:16.466; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-09-01 10:55:16.467; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2015-09-01 10:55:16.467; [   x:techproducts] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2015-09-01 10:55:16.469; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Registered new searcher Searcher@3f606f43[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-09-01 10:55:16.601; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[GB18030TEST (1511108028961652736)]} 0 150
+INFO  - 2015-09-01 10:55:16.629; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[SP2514N (1511108029045538816), 6H500F0 (1511108029056024576)]} 0 15
+INFO  - 2015-09-01 10:55:16.642; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[F8V7067-APL-KIT (1511108029065461760), IW-02 (1511108029069656064)]} 0 7
+INFO  - 2015-09-01 10:55:16.684; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[MA147LL/A (1511108029104259072)]} 0 13
+INFO  - 2015-09-01 10:55:16.707; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[adata (1511108029130473472), apple (1511108029132570624), asus (1511108029132570625), ati (1511108029133619200), belkin (1511108029134667776), canon (1511108029135716352), corsair (1511108029136764928), dell (1511108029136764929), maxtor (1511108029137813504), samsung (1511108029138862080), ... (11 adds)]} 0 10
+INFO  - 2015-09-01 10:55:16.737; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[TWINX2048-3200PRO (1511108029157736448), VS1GB400C3 (1511108029166125056), VDBDB1A16 (1511108029169270784)]} 0 15
+INFO  - 2015-09-01 10:55:16.760; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[USD (1511108029188145152), EUR (1511108029191290880), GBP (1511108029193388032), NOK (1511108029195485184)]} 0 9
+INFO  - 2015-09-01 10:55:16.779; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[3007WFP (1511108029214359552)]} 0 4
+INFO  - 2015-09-01 10:55:16.796; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[VA902B (1511108029232185344)]} 0 3
+INFO  - 2015-09-01 10:55:16.815; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[0579B002 (1511108029251059712)]} 0 4
+INFO  - 2015-09-01 10:55:16.833; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[9885A004 (1511108029269934080)]} 0 4
+INFO  - 2015-09-01 10:55:16.852; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[SOLR1000 (1511108029288808448)]} 0 5
+INFO  - 2015-09-01 10:55:16.873; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[UTF8TEST (1511108029310828544)]} 0 6
+INFO  - 2015-09-01 10:55:16.892; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={} {add=[EN7800GTX/2DHTV/256M (1511108029327605760), 100-435805 (1511108029331800064)]} 0 7
+INFO  - 2015-09-01 10:55:16.899; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-09-01 10:55:17.006; [   x:techproducts] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@78fd87b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@78fd87b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2015-09-01 10:55:17.006; [   x:techproducts] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2015-09-01 10:55:17.054; [   x:techproducts] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1fe31908[techproducts] main
+INFO  - 2015-09-01 10:55:17.057; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-09-01 10:55:17.057; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@1fe31908[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C32)))}
+INFO  - 2015-09-01 10:55:17.058; [   x:techproducts] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-09-01 10:55:17.059; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Registered new searcher Searcher@1fe31908[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C32)))}
+INFO  - 2015-09-01 10:55:17.060; [   x:techproducts] org.apache.solr.update.processor.LogUpdateProcessor; [techproducts] webapp=/solr path=/update params={commit=true} {commit=} 0 161
+INFO  - 2015-09-01 10:55:24.309; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441104924304} status=0 QTime=0 
+INFO  - 2015-09-01 10:55:24.355; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1441104924335} status=0 QTime=15 
+INFO  - 2015-09-01 10:55:40.009; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441104940003} status=0 QTime=0 
+INFO  - 2015-09-01 10:55:40.061; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1441104940038} status=0 QTime=19 
+INFO  - 2015-09-01 10:55:42.470; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1441104942463} status=0 QTime=1 
+INFO  - 2015-09-01 10:55:42.478; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1441104942464} status=0 QTime=0 
+INFO  - 2015-09-01 10:55:42.498; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441104942489} status=0 QTime=1 
+INFO  - 2015-09-01 10:55:42.506; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/replication params={wt=json&command=details&_=1441104942494} status=0 QTime=6 
+INFO  - 2015-09-01 10:55:42.510; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441104942498} status=0 QTime=0 
+INFO  - 2015-09-01 10:55:42.516; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441104942502} status=503 QTime=2 
+INFO  - 2015-09-01 10:55:42.532; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/admin/system params={wt=json&_=1441104942496} status=0 QTime=26 
+INFO  - 2015-09-01 10:57:17.295; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1441105037279} hits=32 status=0 QTime=6 
+INFO  - 2015-09-01 10:57:33.214; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=*:*&facet.field=cat&indent=true&wt=json&facet=true&_=1441105053164} hits=32 status=0 QTime=42 
+INFO  - 2015-09-01 10:58:48.248; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={facet.query=facet.range%3Dprice%26f.price.facet.range.start%3D0.0%26f.price.facet.range.end%3D1000.0%26f.price.facet.range.gap%3D100&q=*:*&facet.field=cat&indent=true&wt=json&facet=true&_=1441105128231} hits=32 status=0 QTime=9 
+INFO  - 2015-09-01 11:00:07.780; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=video&indent=true&wt=json&_=1441105207767} hits=3 status=0 QTime=3 
+INFO  - 2015-09-01 11:03:36.485; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=name:"A"&indent=true&wt=json&_=1441105416474} hits=1 status=0 QTime=4 
+INFO  - 2015-09-01 11:03:47.769; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=name:*&indent=true&wt=json&_=1441105427754} hits=21 status=0 QTime=11 
+INFO  - 2015-09-01 11:03:56.987; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=name:"T"&indent=true&wt=json&_=1441105436979} hits=0 status=0 QTime=0 
+INFO  - 2015-09-01 11:04:01.461; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=name:"Test"&indent=true&wt=json&_=1441105441457} hits=2 status=0 QTime=1 
+INFO  - 2015-09-01 11:06:27.522; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=name:"Test"&facet.field=cat&indent=true&wt=json&facet=true&_=1441105587516} hits=2 status=0 QTime=1 
+INFO  - 2015-09-01 11:06:38.090; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/select params={q=*:*&facet.field=cat&indent=true&wt=json&facet=true&_=1441105598082} hits=32 status=0 QTime=3 
+INFO  - 2015-09-02 08:27:31.762; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] webapp=/solr path=/schema params={wt=schema.xml} status=0 QTime=36 
+INFO  - 2015-09-02 08:32:18.837; [   x:techproducts] org.eclipse.jetty.server.handler.ContextHandler$Context; SolrRestApi: [Restlet] ServerServlet: component class is null
+INFO  - 2015-09-02 08:32:18.974; [   x:techproducts] org.eclipse.jetty.server.handler.ContextHandler$Context; SolrRestApi: [Restlet] Attaching application: org.apache.solr.rest.SolrSchemaRestApi@21ea998 to URI: /solr/schema
+INFO  - 2015-09-02 08:32:19.010; [   x:techproducts] org.apache.solr.rest.SolrSchemaRestApi; createInboundRoot started for /schema
+INFO  - 2015-09-02 08:32:19.025; [   x:techproducts] org.apache.solr.rest.RestManager; Attached managed resource at path: /analysis/stopwords/english
+INFO  - 2015-09-02 08:32:19.026; [   x:techproducts] org.apache.solr.rest.RestManager; Attached managed resource at path: /analysis/synonyms/english
+INFO  - 2015-09-02 08:32:19.027; [   x:techproducts] org.apache.solr.rest.RestManager; Attached managed resource at path: /managed
+INFO  - 2015-09-02 08:32:19.027; [   x:techproducts] org.apache.solr.rest.RestManager; Attached 3 ManagedResource endpoints to Restlet router: /schema
+INFO  - 2015-09-02 08:32:19.027; [   x:techproducts] org.apache.solr.rest.SolrSchemaRestApi; createInboundRoot complete for /schema
+INFO  - 2015-09-02 08:32:19.041; [   x:techproducts] org.apache.solr.rest.BaseSolrResource; [techproducts] webapp=/solr path=/schema/fields params={wt=json} status=0 QTime=217 
+INFO  - 2015-09-03 04:55:59.698; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441256159519} status=0 QTime=21 
+INFO  - 2015-09-03 04:55:59.828; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1441256159765} status=0 QTime=53 
+INFO  - 2015-09-03 06:11:17.926; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@36916eb0{HTTP/1.1}{0.0.0.0:8983}
+INFO  - 2015-09-03 06:11:17.931; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=68377659
+INFO  - 2015-09-03 06:11:17.935; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts]  CLOSING SolrCore org.apache.solr.core.SolrCore@699bd2ac
+INFO  - 2015-09-03 06:11:17.943; [   x:techproducts] org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=1,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=32,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=8724,transaction_logs_total_number=1}
+INFO  - 2015-09-03 06:11:17.946; [   x:techproducts] org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-09-03 06:11:17.947; [   x:techproducts] org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-09-03 06:11:17.947; [   x:techproducts] org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-09-03 06:11:17.958; [   x:techproducts] org.apache.solr.core.SolrCore; [techproducts] Closing main searcher on request.
+INFO  - 2015-09-03 06:11:17.970; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-09-03 06:11:17.972; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data [CachedDir<<refCount=0;path=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data;done=false>>]
+INFO  - 2015-09-03 06:11:17.973; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data
+INFO  - 2015-09-03 06:11:17.973; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index [CachedDir<<refCount=0;path=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index;done=false>>]
+INFO  - 2015-09-03 06:11:17.975; [   x:techproducts] org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/example/techproducts/solr/techproducts/data/index
+INFO  - 2015-09-03 06:11:17.982; [   x:techproducts] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@51565ec2{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}

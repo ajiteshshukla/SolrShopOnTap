@@ -1,0 +1,422 @@
+2015-10-21 10:31:14.645 INFO  (main) [   ] o.e.j.u.log Logging initialized @353ms
+2015-10-21 10:31:14.866 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-21 10:31:14.884 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-21 10:31:14.887 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/contexts/] at interval 0
+2015-10-21 10:31:15.356 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-21 10:31:15.367 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-21 10:31:15.374 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2015-10-21 10:31:15.387 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-21 10:31:15.388 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-21 10:31:15.390 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/'
+2015-10-21 10:31:15.543 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/solr.xml
+2015-10-21 10:31:15.612 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-21 10:31:15.635 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2015-10-21 10:31:15.635 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/]
+2015-10-21 10:31:15.635 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib
+2015-10-21 10:31:15.635 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib).
+2015-10-21 10:31:15.651 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-21 10:31:15.860 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-21 10:31:15.862 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-21 10:31:15.863 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-21 10:31:15.865 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-21 10:31:15.865 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-21 10:31:15.897 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-21 10:31:15.933 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=gettingStarted, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/, dataDir=data/}
+2015-10-21 10:31:15.934 INFO  (main) [   ] o.a.s.c.CoresLocator Found core gettingStarted in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/
+2015-10-21 10:31:15.935 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsContent, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/, dataDir=data/}
+2015-10-21 10:31:15.936 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsContent in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/
+2015-10-21 10:31:15.936 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/, dataDir=data/}
+2015-10-21 10:31:15.937 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/
+2015-10-21 10:31:15.937 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/, dataDir=data/}
+2015-10-21 10:31:15.937 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/
+2015-10-21 10:31:15.938 INFO  (main) [   ] o.a.s.c.CoresLocator Found 4 core definitions
+2015-10-21 10:31:15.941 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2015-10-21 10:31:15.942 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [strandsOld], with instancedirs [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/] and [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:511)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:428)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:132)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:109)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2015-10-21 10:31:15.943 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-21 10:31:15.954 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}
+2015-10-21 10:31:15.971 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@75d3a5e0{HTTP/1.1}{0.0.0.0:8983}
+2015-10-21 10:31:15.971 INFO  (main) [   ] o.e.j.s.Server Started @1682ms
+2015-10-21 10:31:28.539 INFO  (qtp434176574-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1445423488513} status=0 QTime=18 
+2015-10-21 10:31:28.602 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1445423488570} status=0 QTime=28 
+2015-10-21 10:31:30.700 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1445423490694} status=0 QTime=0 
+2015-10-21 10:31:37.023 INFO  (qtp434176574-15) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=strandsContent&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=strandsContent&config=solrconfig.xml&_=1445423497019
+2015-10-21 10:31:37.027 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsContent, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=strandsContent, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/, dataDir=data}
+2015-10-21 10:31:37.027 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/'
+2015-10-21 10:31:37.071 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-21 10:31:37.114 INFO  (qtp434176574-15) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-21 10:31:37.120 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-10-21 10:31:37.198 INFO  (qtp434176574-15) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-21 10:31:37.206 INFO  (qtp434176574-15) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+2015-10-21 10:31:37.249 INFO  (qtp434176574-15) [   ] o.a.s.s.IndexSchema [strandsContent] Schema name=example
+2015-10-21 10:31:37.505 INFO  (qtp434176574-15) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-21 10:31:37.643 INFO  (qtp434176574-15) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-10-21 10:31:37.651 INFO  (qtp434176574-15) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-10-21 10:31:37.660 INFO  (qtp434176574-15) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf'
+2015-10-21 10:31:37.661 INFO  (qtp434176574-15) [   ] o.a.s.c.CoreContainer Creating SolrCore 'strandsContent' using configuration from instancedir /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/
+2015-10-21 10:31:37.665 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-10-21 10:31:37.677 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore [[strandsContent] ] Opening new SolrCore at [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/], dataDir=[null]
+2015-10-21 10:31:37.679 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-10-21 10:31:37.693 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data
+2015-10-21 10:31:37.693 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index/
+2015-10-21 10:31:37.694 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index
+2015-10-21 10:31:37.712 INFO  (OldIndexDirectoryCleanupThreadForCore-strandsContent) [   x:strandsContent] o.a.s.c.SolrCore Looking for old index directories to cleanup for core strandsContent in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/
+2015-10-21 10:31:37.788 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain ""
+2015-10-21 10:31:37.797 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain ""
+2015-10-21 10:31:37.821 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-21 10:31:37.823 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-21 10:31:37.824 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-21 10:31:37.825 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-21 10:31:37.837 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-10-21 10:31:37.838 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-10-21 10:31:37.839 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-10-21 10:31:37.840 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-10-21 10:31:37.841 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-10-21 10:31:37.850 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-10-21 10:31:37.850 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-10-21 10:31:37.868 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-10-21 10:31:37.868 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-10-21 10:31:37.925 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@f475671; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1i,generation=54}
+2015-10-21 10:31:37.925 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore newest commit generation = 54
+2015-10-21 10:31:37.978 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.s.SolrIndexSearcher Opening Searcher@28939205[strandsContent] main
+2015-10-21 10:31:37.988 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf
+2015-10-21 10:31:37.989 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf}
+2015-10-21 10:31:37.997 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf
+2015-10-21 10:31:37.998 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf
+2015-10-21 10:31:37.998 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-10-21 10:31:37.998 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-10-21 10:31:38.004 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-10-21 10:31:38.005 INFO  (searcherExecutor-7-thread-1-processing-x:strandsContent) [   x:strandsContent] o.a.s.c.SolrCore [strandsContent] Registered new searcher Searcher@28939205[strandsContent] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_r(5.3.0):C257) Uninverting(_s(5.3.0):C172) Uninverting(_w(5.3.0):C121) Uninverting(_x(5.3.0):C31) Uninverting(_y(5.3.0):C1) Uninverting(_z(5.3.0):C1) Uninverting(_10(5.3.0):C31)))}
+2015-10-21 10:31:38.006 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-10-21 10:31:38.007 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-10-21 10:31:38.027 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.VersionInfo Found MAX value 1515630409432432641 from Terms for _version_ in index
+2015-10-21 10:31:38.033 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.UpdateLog Took 27 ms to seed version buckets with highest version 1515630409432432641
+2015-10-21 10:31:38.034 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.CoreContainer registering core: strandsContent
+2015-10-21 10:31:38.035 ERROR (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'strandsContent': Could not create a new core in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/as another core is already defined there
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not create a new core in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/as another core is already defined there
+	at org.apache.solr.core.CorePropertiesLocator.create(CorePropertiesLocator.java:59)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:632)
+	... 27 more
+
+2015-10-21 10:31:38.036 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=strandsContent&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=strandsContent&config=solrconfig.xml&_=1445423497019} status=400 QTime=1013 
+2015-10-21 10:31:40.709 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1445423500704} status=0 QTime=0 
+2015-10-21 10:31:40.759 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1445423500741} status=0 QTime=13 
+2015-10-21 10:31:40.781 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1445423500771} status=0 QTime=6 
+2015-10-21 10:31:40.838 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1445423500827} status=0 QTime=6 
+2015-10-21 10:31:42.540 ERROR (qtp434176574-12) [   x:strandsContent] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/admin-extra.menu-top.html]
+2015-10-21 10:31:42.541 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1445423502527} status=404 QTime=9 
+2015-10-21 10:31:42.553 ERROR (qtp434176574-15) [   x:strandsContent] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/admin-extra.menu-bottom.html]
+2015-10-21 10:31:42.556 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1445423502528} status=404 QTime=4 
+2015-10-21 10:31:42.582 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1445423502566} status=0 QTime=2 
+2015-10-21 10:31:42.591 ERROR (qtp434176574-17) [   x:strandsContent] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/admin-extra.html]
+2015-10-21 10:31:42.591 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1445423502581} status=404 QTime=0 
+2015-10-21 10:31:42.598 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1445423502585} status=503 QTime=2 
+2015-10-21 10:31:42.604 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/replication params={wt=json&command=details&_=1445423502575} status=0 QTime=7 
+2015-10-21 10:31:42.608 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/system params={wt=json&_=1445423502578} status=0 QTime=22 
+2015-10-21 10:31:49.387 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+userName:*&wt=json} hits=1 status=0 QTime=62 
+2015-10-21 10:31:49.509 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+subCategoryId:*&start=0&rows=100&wt=json} hits=1 status=0 QTime=3 
+2015-10-21 10:31:49.520 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+)+AND+contentId:*&start=0&rows=100&wt=json} hits=9 status=0 QTime=4 
+2015-10-21 10:31:49.554 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=contentId:(2+OR+2+OR+9+OR+50+OR+51+OR+52+OR+53+OR+60+OR+66+)+AND+contentDesc:*&start=0&rows=100&wt=json} hits=8 status=0 QTime=17 
+2015-10-21 10:31:49.562 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:2&wt=json} hits=0 status=0 QTime=2 
+2015-10-21 10:31:49.567 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:2&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.573 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:2&start=0&rows=100&wt=json} hits=4 status=0 QTime=4 
+2015-10-21 10:31:49.586 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+3+OR+2+OR+3+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=6 
+2015-10-21 10:31:49.593 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:4+AND+userName:*&wt=json} hits=1 status=0 QTime=2 
+2015-10-21 10:31:49.601 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:2&start=0&rows=100&wt=json} hits=3 status=0 QTime=3 
+2015-10-21 10:31:49.609 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(4+OR+5+OR+6+)+AND+productName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=3 
+2015-10-21 10:31:49.634 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:66&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.649 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:66&wt=json} hits=0 status=0 QTime=4 
+2015-10-21 10:31:49.668 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:66&start=0&rows=100&wt=json} hits=3 status=0 QTime=3 
+2015-10-21 10:31:49.694 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+3+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=5 
+2015-10-21 10:31:49.702 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:44+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-21 10:31:49.709 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:66&start=0&rows=100&wt=json} hits=0 status=0 QTime=3 
+2015-10-21 10:31:49.715 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:51&wt=json} hits=0 status=0 QTime=2 
+2015-10-21 10:31:49.719 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:51&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.724 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:51&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.735 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(22+OR+3+OR+12+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=5 
+2015-10-21 10:31:49.742 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:36+AND+userName:*&wt=json} hits=1 status=0 QTime=3 
+2015-10-21 10:31:49.753 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:51&start=0&rows=100&wt=json} hits=1 status=0 QTime=2 
+2015-10-21 10:31:49.759 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(90+)+AND+productName:*&start=0&rows=100&wt=json} hits=1 status=0 QTime=2 
+2015-10-21 10:31:49.767 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:52&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:31:49.771 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:52&wt=json} hits=0 status=0 QTime=2 
+2015-10-21 10:31:49.776 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:52&start=0&rows=100&wt=json} hits=2 status=0 QTime=2 
+2015-10-21 10:31:49.784 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=1 
+2015-10-21 10:31:49.790 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:37+AND+userName:*&wt=json} hits=1 status=0 QTime=2 
+2015-10-21 10:31:49.797 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:52&start=0&rows=100&wt=json} hits=2 status=0 QTime=3 
+2015-10-21 10:31:49.805 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(99+OR+100+)+AND+productName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=2 
+2015-10-21 10:31:49.811 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:53&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.815 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:53&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.820 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:53&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.825 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+5+OR+12+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.832 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:38+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-21 10:31:49.838 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:53&start=0&rows=100&wt=json} hits=1 status=0 QTime=3 
+2015-10-21 10:31:49.843 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(101+)+AND+productName:*&start=0&rows=100&wt=json} hits=1 status=0 QTime=1 
+2015-10-21 10:31:49.850 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:50&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.853 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:50&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.857 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:50&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.865 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+3+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-21 10:31:49.870 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:12+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-21 10:31:49.876 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:50&start=0&rows=100&wt=json} hits=2 status=0 QTime=2 
+2015-10-21 10:31:49.883 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(88+OR+89+)+AND+productName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=2 
+2015-10-21 10:31:49.889 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:60&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.892 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:60&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.897 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:60&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.903 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+12+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.908 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:39+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-21 10:31:49.915 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:60&start=0&rows=100&wt=json} hits=2 status=0 QTime=3 
+2015-10-21 10:31:49.921 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(112+OR+113+)+AND+productName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=2 
+2015-10-21 10:31:49.934 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:9&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.943 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:9&wt=json} hits=0 status=0 QTime=1 
+2015-10-21 10:31:49.949 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:9&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.955 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+13+OR+11+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-21 10:31:49.962 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:28+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-21 10:31:49.969 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:9&start=0&rows=100&wt=json} hits=4 status=0 QTime=2 
+2015-10-21 10:31:49.975 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(25+OR+26+OR+27+OR+28+)+AND+productName:*&start=0&rows=100&wt=json} hits=4 status=0 QTime=2 
+2015-10-21 10:42:40.824 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+userName:*&wt=json} hits=1 status=0 QTime=2 
+2015-10-21 10:42:40.839 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+subCategoryId:*&start=0&rows=100&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.849 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+)+AND+contentId:*&start=0&rows=100&wt=json} hits=9 status=0 QTime=0 
+2015-10-21 10:42:40.858 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=contentId:(2+OR+2+OR+9+OR+50+OR+51+OR+52+OR+53+OR+60+OR+66+)+AND+contentDesc:*&start=0&rows=100&wt=json} hits=8 status=0 QTime=1 
+2015-10-21 10:42:40.868 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:2&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.871 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:2&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.874 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:2&start=0&rows=100&wt=json} hits=4 status=0 QTime=0 
+2015-10-21 10:42:40.880 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+3+OR+2+OR+3+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:40.883 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:4+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.887 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:2&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:40.891 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(4+OR+5+OR+6+)+AND+productName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:40.898 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:66&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.901 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:66&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.904 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:66&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-21 10:42:40.908 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+3+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-21 10:42:40.912 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:44+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.916 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:66&start=0&rows=100&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.918 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:51&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.921 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:51&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.924 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:51&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:40.930 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(22+OR+3+OR+12+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-21 10:42:40.934 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:36+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.937 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:51&start=0&rows=100&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.941 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(90+)+AND+productName:*&start=0&rows=100&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.947 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:52&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.950 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:52&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.953 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:52&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:40.956 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:40.962 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:37+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.966 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:52&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:40.969 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(99+OR+100+)+AND+productName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:40.974 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:53&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.978 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:53&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:40.981 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:53&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:40.985 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+5+OR+12+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:40.989 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:38+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.993 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:53&start=0&rows=100&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:40.997 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(101+)+AND+productName:*&start=0&rows=100&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:41.001 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:50&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:41.003 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:50&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:41.006 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:50&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:41.009 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+3+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:41.014 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:12+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:41.019 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:50&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:41.022 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(88+OR+89+)+AND+productName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:41.027 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:60&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:41.030 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:60&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:41.033 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:60&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:41.037 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+12+OR+22+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:41.041 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:39+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:41.047 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:60&start=0&rows=100&wt=json} hits=2 status=0 QTime=0 
+2015-10-21 10:42:41.051 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(112+OR+113+)+AND+productName:*&start=0&rows=100&wt=json} hits=2 status=0 QTime=1 
+2015-10-21 10:42:41.057 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1405351543+AND+contentId:9&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:41.061 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:9&wt=json} hits=0 status=0 QTime=0 
+2015-10-21 10:42:41.065 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:9&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:41.068 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(3+OR+13+OR+11+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=0 
+2015-10-21 10:42:41.072 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:28+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-21 10:42:41.078 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:9&start=0&rows=100&wt=json} hits=4 status=0 QTime=2 
+2015-10-21 10:42:41.083 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(25+OR+26+OR+27+OR+28+)+AND+productName:*&start=0&rows=100&wt=json} hits=4 status=0 QTime=1 
+2015-10-26 07:41:44.530 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:aasha.medhi2004@gmail.com&wt=json} hits=1 status=0 QTime=145 
+2015-10-26 07:41:44.550 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+userName:*&wt=json} hits=1 status=0 QTime=3 
+2015-10-26 07:41:55.678 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1445845315670} status=0 QTime=1 
+2015-10-26 07:41:55.753 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1445845315722} status=0 QTime=26 
+2015-10-26 07:42:10.967 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:*+AND+userName:*&indent=true&rows=50&wt=json&_=1445845330942} hits=45 status=0 QTime=16 
+2015-10-26 07:42:24.125 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:aasha.medhi12004@gmail.com&wt=json} hits=1 status=0 QTime=2 
+2015-10-26 07:42:24.130 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 07:42:32.849 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:*+AND+userName:*&indent=true&rows=50&wt=json&_=1445845352837} hits=45 status=0 QTime=0 
+2015-10-26 07:44:52.174 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:aasha.medhi12004@gmail.com&indent=true&rows=50&wt=json&_=1445845492156} hits=1 status=0 QTime=0 
+2015-10-26 07:45:00.953 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:"aasha.medhi12004@gmail.com"&indent=true&rows=50&wt=json&_=1445845500937} hits=0 status=0 QTime=10 
+2015-10-26 07:45:10.788 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:aasha.medhi2004@gmail.com&indent=true&rows=50&wt=json&_=1445845510781} hits=1 status=0 QTime=1 
+2015-10-26 07:46:08.029 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:aasha.medhi2004@gmail.com&indent=true&rows=50&wt=json&_=1445845568022} hits=1 status=0 QTime=1 
+2015-10-26 07:46:15.546 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha.medhi12004@gmail.com'&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 07:46:15.558 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1405351543+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-26 07:46:37.268 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha.medhi12004@gmail.com'&indent=true&rows=50&wt=json&_=1445845597261} hits=1 status=0 QTime=1 
+2015-10-26 07:47:51.808 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:"aasha.medhi12004@gmail.com"&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 07:47:52.016 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-10-26 07:47:52.091 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@f475671; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1i,generation=54}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@f475671; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1j,generation=55}
+2015-10-26 07:47:52.092 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.SolrCore newest commit generation = 55
+2015-10-26 07:47:52.096 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.s.SolrIndexSearcher Opening Searcher@66d7e2f1[strandsContent] main
+2015-10-26 07:47:52.100 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.u.UpdateHandler end_commit_flush
+2015-10-26 07:47:52.103 INFO  (searcherExecutor-7-thread-1-processing-x:strandsContent) [   x:strandsContent] o.a.s.c.SolrCore [strandsContent] Registered new searcher Searcher@66d7e2f1[strandsContent] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_r(5.3.0):C257) Uninverting(_s(5.3.0):C172) Uninverting(_w(5.3.0):C121) Uninverting(_x(5.3.0):C31) Uninverting(_y(5.3.0):C1) Uninverting(_z(5.3.0):C1) Uninverting(_10(5.3.0):C31) Uninverting(_11(5.3.0):C1)))}
+2015-10-26 07:47:52.104 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.u.p.LogUpdateProcessor [strandsContent] webapp=/solr path=/update params={commit=true} {add=[6e753c3a-c089-44fd-af66-8936f7888959 (1516079071306448896)],commit=} 0 193
+2015-10-26 07:47:52.109 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1854168091+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 07:50:34.239 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha.medhi12004@gmail.com'&indent=true&rows=50&wt=json&_=1445845834231} hits=2 status=0 QTime=2 
+2015-10-26 07:50:45.056 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha.medhi@gmail.com'&indent=true&rows=50&wt=json&_=1445845845048} hits=2 status=0 QTime=2 
+2015-10-26 07:51:02.051 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha'&indent=true&rows=50&wt=json&_=1445845862044} hits=0 status=0 QTime=1 
+2015-10-26 07:51:10.472 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha.medhigmail.com'&indent=true&rows=50&wt=json&_=1445845870465} hits=0 status=0 QTime=1 
+2015-10-26 07:51:15.504 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userEmail:'aasha.medhi@gmail.com'&indent=true&rows=50&wt=json&_=1445845875498} hits=2 status=0 QTime=1 
+2015-10-26 09:01:48.257 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.s.SolrIndexSearcher Opening Searcher@359548e6[strandsContent] realtime
+2015-10-26 09:01:48.258 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-10-26 09:01:48.266 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@f475671; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1j,generation=55}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@f475671; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1k,generation=56}
+2015-10-26 09:01:48.267 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.SolrCore newest commit generation = 56
+2015-10-26 09:01:48.270 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.s.SolrIndexSearcher Opening Searcher@56a4de38[strandsContent] main
+2015-10-26 09:01:48.271 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.UpdateHandler end_commit_flush
+2015-10-26 09:01:48.272 INFO  (searcherExecutor-7-thread-1-processing-x:strandsContent) [   x:strandsContent] o.a.s.c.SolrCore [strandsContent] Registered new searcher Searcher@56a4de38[strandsContent] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_r(5.3.0):C257/90:delGen=1) Uninverting(_s(5.3.0):C172) Uninverting(_w(5.3.0):C121) Uninverting(_y(5.3.0):C1) Uninverting(_z(5.3.0):C1) Uninverting(_10(5.3.0):C31) Uninverting(_11(5.3.0):C1)))}
+2015-10-26 09:01:48.277 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.p.LogUpdateProcessor [strandsContent] webapp=/solr path=/update params={commit=true} {deleteByQuery=productId:* AND productName:* (-1516083723065360384),commit=} 0 69
+2015-10-26 09:01:58.218 INFO  (qtp434176574-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1445850118212} status=0 QTime=0 
+2015-10-26 09:01:58.270 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1445850118252} status=0 QTime=14 
+2015-10-26 09:02:12.315 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+productName:*&indent=true&wt=json&_=1445850132302} hits=0 status=0 QTime=4 
+2015-10-26 09:08:12.903 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1854168091+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:13.019 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1854168091+AND+subCategoryId:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.670 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1854168091+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:27.687 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+)+AND+contentId:*&start=0&rows=100&wt=json} hits=10 status=0 QTime=5 
+2015-10-26 09:08:27.729 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=contentId:(1+OR+1+OR+4+OR+6+OR+7+OR+8+OR+10+OR+15+OR+25+OR+42+)+AND+contentDesc:*&start=0&rows=100&wt=json} hits=9 status=0 QTime=17 
+2015-10-26 09:08:27.750 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:1&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.753 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:1&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.758 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:1&start=0&rows=100&wt=json} hits=6 status=0 QTime=2 
+2015-10-26 09:08:27.769 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+OR+22+OR+10+OR+1+OR+22+OR+10+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=5 
+2015-10-26 09:08:27.777 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:3+AND+userName:*&wt=json} hits=1 status=0 QTime=2 
+2015-10-26 09:08:27.785 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:1&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:27.795 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(1+OR+2+OR+3+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=4 
+2015-10-26 09:08:27.799 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:25&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.802 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:25&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.806 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:25&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:27.812 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+22+OR+1+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:27.817 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:9+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:27.822 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:25&start=0&rows=100&wt=json} hits=0 status=0 QTime=2 
+2015-10-26 09:08:27.827 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:42&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.830 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:42&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.834 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:42&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:27.840 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(2+OR+1+OR+6+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:27.844 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:3+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-26 09:08:27.851 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:42&start=0&rows=100&wt=json} hits=1 status=0 QTime=3 
+2015-10-26 09:08:27.856 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(75+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=2 
+2015-10-26 09:08:27.864 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:15&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.867 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:15&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.874 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:15&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:27.951 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+OR+7+OR+5+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=70 
+2015-10-26 09:08:27.962 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1+AND+userName:*&wt=json} hits=1 status=0 QTime=2 
+2015-10-26 09:08:27.969 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:15&start=0&rows=100&wt=json} hits=2 status=0 QTime=3 
+2015-10-26 09:08:27.975 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(45+OR+91+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=2 
+2015-10-26 09:08:27.979 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:4&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.982 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:4&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:27.990 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:4&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:27.997 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(7+OR+9+OR+1+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:28.001 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:26+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:28.006 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:4&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.012 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(10+OR+11+OR+12+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=2 
+2015-10-26 09:08:28.015 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:6&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.018 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:6&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.021 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:6&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.027 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+OR+15+OR+10+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:28.032 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:27+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:28.037 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:6&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.042 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(16+OR+17+OR+18+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=3 
+2015-10-26 09:08:28.045 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:7&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.048 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:7&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.052 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:7&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.056 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+OR+11+OR+5+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.062 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:2+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:28.067 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:7&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:28.073 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(19+OR+20+OR+21+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=3 
+2015-10-26 09:08:28.079 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:10&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.082 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:10&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.085 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:10&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.090 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+OR+12+OR+10+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=3 status=0 QTime=2 
+2015-10-26 09:08:28.095 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:3+AND+userName:*&wt=json} hits=1 status=0 QTime=0 
+2015-10-26 09:08:28.099 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:10&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.105 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(29+OR+30+OR+31+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=2 
+2015-10-26 09:08:28.108 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:1854168091+AND+contentId:8&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.111 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=likedUserId:*+AND+contentId:8&wt=json} hits=0 status=0 QTime=1 
+2015-10-26 09:08:28.115 INFO  (qtp434176574-13) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:*+AND+contentId:8&start=0&rows=100&wt=json} hits=4 status=0 QTime=1 
+2015-10-26 09:08:28.120 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=subCategoryId:(1+OR+18+OR+10+OR+8+)+AND+subCategoryName:*&start=0&rows=100&wt=json} hits=4 status=0 QTime=2 
+2015-10-26 09:08:28.125 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:2+AND+userName:*&wt=json} hits=1 status=0 QTime=1 
+2015-10-26 09:08:28.129 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:*+AND+contentId:8&start=0&rows=100&wt=json} hits=3 status=0 QTime=1 
+2015-10-26 09:08:28.134 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=productId:(22+OR+23+OR+24+)+AND+productName:*&start=0&rows=100&wt=json} hits=0 status=0 QTime=2 
+2015-10-26 11:08:24.052 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:*+AND+categoryId:*&indent=true&wt=json&_=1445857704039} hits=0 status=0 QTime=5 
+2015-10-26 11:08:29.949 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:*&indent=true&wt=json&_=1445857709935} hits=109 status=0 QTime=9 
+2015-10-26 11:08:38.024 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=userId:1&indent=true&wt=json&_=1445857718014} hits=4 status=0 QTime=1 
+2015-10-26 13:22:12.802 INFO  (qtp434176574-18) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1445865732788} hits=494 status=0 QTime=6 

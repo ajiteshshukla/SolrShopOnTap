@@ -1,0 +1,196 @@
+2015-10-16 06:32:29.524 INFO  (main) [   ] o.e.j.u.log Logging initialized @393ms
+2015-10-16 06:32:29.741 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-16 06:32:29.758 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-16 06:32:29.760 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/contexts/] at interval 0
+2015-10-16 06:32:30.261 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-16 06:32:30.275 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-16 06:32:30.291 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2015-10-16 06:32:30.308 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-16 06:32:30.308 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-16 06:32:30.311 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/'
+2015-10-16 06:32:30.449 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/solr.xml
+2015-10-16 06:32:30.517 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-16 06:32:30.542 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2015-10-16 06:32:30.542 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/]
+2015-10-16 06:32:30.542 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib
+2015-10-16 06:32:30.542 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib).
+2015-10-16 06:32:30.559 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-16 06:32:30.779 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-16 06:32:30.781 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-16 06:32:30.781 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-16 06:32:30.783 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-16 06:32:30.783 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-16 06:32:30.828 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-16 06:32:30.855 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=gettingStarted, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/, dataDir=data/}
+2015-10-16 06:32:30.856 INFO  (main) [   ] o.a.s.c.CoresLocator Found core gettingStarted in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/
+2015-10-16 06:32:30.857 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsContent, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/, dataDir=data/}
+2015-10-16 06:32:30.857 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsContent in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/
+2015-10-16 06:32:30.858 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/, dataDir=data/}
+2015-10-16 06:32:30.858 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/
+2015-10-16 06:32:30.858 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/, dataDir=data/}
+2015-10-16 06:32:30.859 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/
+2015-10-16 06:32:30.859 INFO  (main) [   ] o.a.s.c.CoresLocator Found 4 core definitions
+2015-10-16 06:32:30.864 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2015-10-16 06:32:30.866 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [strandsOld], with instancedirs [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/] and [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:511)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:428)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:132)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:109)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2015-10-16 06:32:30.867 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-16 06:32:30.879 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}
+2015-10-16 06:32:30.896 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@4fd5ce6e{HTTP/1.1}{0.0.0.0:8983}
+2015-10-16 06:32:30.897 INFO  (main) [   ] o.e.j.s.Server Started @1768ms
+2015-10-16 06:32:43.042 INFO  (qtp434176574-15) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=strandsContent&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=strandsContent&config=solrconfig.xml&_=1444977162909
+2015-10-16 06:32:43.044 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsContent, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=strandsContent, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/, dataDir=data}
+2015-10-16 06:32:43.045 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/'
+2015-10-16 06:32:43.109 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-16 06:32:43.177 INFO  (qtp434176574-15) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-16 06:32:43.231 INFO  (qtp434176574-15) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-10-16 06:32:43.415 INFO  (qtp434176574-15) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-16 06:32:43.426 INFO  (qtp434176574-15) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+2015-10-16 06:32:43.531 INFO  (qtp434176574-15) [   ] o.a.s.s.IndexSchema [strandsContent] Schema name=example
+2015-10-16 06:32:43.830 ERROR (qtp434176574-15) [   ] o.a.s.c.CoreContainer Error creating core [strandsContent]: Could not load conf for core strandsContent: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]. Schema file is /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core strandsContent: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]. Schema file is /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:701)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]. Schema file is /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:662)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 35 more
+2015-10-16 06:32:43.834 ERROR (qtp434176574-15) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'strandsContent': Unable to create core [strandsContent] Caused by: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [strandsContent]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:741)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:701)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:629)
+	... 27 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core strandsContent: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]. Schema file is /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	... 29 more
+Caused by: org.apache.solr.common.SolrException: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]. Schema file is /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: [schema.xml] Duplicate field definition for 'categoryId' [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]] and [[[categoryId{type=tlong,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}]]]
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:662)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 35 more
+
+2015-10-16 06:32:43.836 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=strandsContent&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=strandsContent&config=solrconfig.xml&_=1444977162909} status=400 QTime=809 
+2015-10-16 06:32:45.761 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444977165751} status=0 QTime=1 
+2015-10-16 06:32:45.835 INFO  (qtp434176574-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444977165789} status=0 QTime=41 
+2015-10-16 06:32:45.852 INFO  (qtp434176574-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444977165848} status=0 QTime=0 
+2015-10-16 06:33:17.677 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@4fd5ce6e{HTTP/1.1}{0.0.0.0:8983}
+2015-10-16 06:33:17.678 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1165303897
+2015-10-16 06:33:17.682 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}

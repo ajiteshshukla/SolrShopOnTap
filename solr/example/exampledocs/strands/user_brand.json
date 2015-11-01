@@ -1,0 +1,10 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'StrandsSocial'
+
+// StrandsSocial.user_brand
+
+[{"userId":"2054792674","brandId":"21"}, {"userId":"1630287298","brandId":"3"}, {"userId":"-2002637177","brandId":"358"}, {"userId":"479297449","brandId":"1"}, {"userId":"479297449","brandId":"4"}, {"userId":"479297449","brandId":"6"}, {"userId":"479297449","brandId":"45"}, {"userId":"479297449","brandId":"360"}, {"userId":"2054792674","brandId":"4"}, {"userId":"-187004711","brandId":"14"}, {"userId":"-187004711","brandId":"21"}, {"userId":"-187004711","brandId":"54"}, {"userId":"-187004711","brandId":"357"}, {"userId":"1630287298","brandId":"1"}, {"userId":"1507990368","brandId":"22"}, {"userId":"1507990368","brandId":"18"}, {"userId":"1507990368","brandId":"29"}, {"userId":"597135989","brandId":"45"}, {"userId":"597135989","brandId":"39"}, {"userId":"-759506125","brandId":"353"}, {"userId":"-759506125","brandId":"354"}, {"userId":"-759506125","brandId":"356"}, {"userId":"-759506125","brandId":"358"}, {"userId":"-759506125","brandId":"2"}, {"userId":"-759506125","brandId":"3"}, {"userId":"-759506125","brandId":"1"}, {"userId":"11","brandId":"6"}, {"userId":"11","brandId":"28"}, {"userId":"11","brandId":"4"}]

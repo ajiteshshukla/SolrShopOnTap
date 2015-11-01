@@ -1,0 +1,90 @@
+[
+    {
+        "subCategoryId": 1,
+        "subCategoryName": "InFashion"
+    },
+    {
+        "subCategoryId": 2,
+        "subCategoryName": "Ethnic"
+    },
+    {
+        "subCategoryId": 3,
+        "subCategoryName": "Wedding"
+    },
+    {
+        "subCategoryId": 4,
+        "subCategoryName": "EverythingHair"
+    },
+    {
+        "subCategoryId": 5,
+        "subCategoryName": "Adorbs"
+    },
+    {
+        "subCategoryId": 6,
+        "subCategoryName": "CollegeStyle"
+    },
+    {
+        "subCategoryId": 7,
+        "subCategoryName": "Thrifty"
+    },
+    {
+        "subCategoryId": 8,
+        "subCategoryName": "Boho"
+    },
+    {
+        "subCategoryId": 9,
+        "subCategoryName": "Party"
+    },
+    {
+        "subCategoryId": 10,
+        "subCategoryName": "Day&Night"
+    },
+    {
+        "subCategoryId": 11,
+        "subCategoryName": "Retro"
+    },
+    {
+        "subCategoryId": 12,
+        "subCategoryName": "Chic"
+    },
+    {
+        "subCategoryId": 13,
+        "subCategoryName": "Pearl"
+    },
+    {
+        "subCategoryId": 14,
+        "subCategoryName": "AllStuffFeet"
+    },
+    {
+        "subCategoryId": 15,
+        "subCategoryName": "Sporty"
+    },
+    {
+        "subCategoryId": 16,
+        "subCategoryName": "DIY"
+    },
+    {
+        "subCategoryId": 17,
+        "subCategoryName": "NailArt"
+    },
+    {
+        "subCategoryId": 18,
+        "subCategoryName": "Blue"
+    },
+    {
+        "subCategoryId": 19,
+        "subCategoryName": "AllDayLong"
+    },
+    {
+        "subCategoryId": 20,
+        "subCategoryName": "Floral"
+    },
+    {
+        "subCategoryId": 21,
+        "subCategoryName": "Makeup"
+    },
+    {
+        "subCategoryId": 22,
+        "subCategoryName": "Elegant"
+    }
+]

@@ -1,0 +1,656 @@
+2015-09-08 08:22:48.533 INFO  (main) [   ] o.e.j.u.log Logging initialized @452ms
+2015-09-08 08:22:48.777 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-09-08 08:22:48.793 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-09-08 08:22:48.795 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/contexts/] at interval 0
+2015-09-08 08:22:49.293 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-09-08 08:22:49.305 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-09-08 08:22:49.315 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2015-09-08 08:22:49.332 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-09-08 08:22:49.333 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-09-08 08:22:49.336 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/'
+2015-09-08 08:22:49.472 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/solr.xml
+2015-09-08 08:22:49.542 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-09-08 08:22:49.566 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2015-09-08 08:22:49.566 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/]
+2015-09-08 08:22:49.566 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib
+2015-09-08 08:22:49.566 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib).
+2015-09-08 08:22:49.583 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-09-08 08:22:49.794 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-09-08 08:22:49.796 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-09-08 08:22:49.797 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-09-08 08:22:49.799 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-09-08 08:22:49.799 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-09-08 08:22:49.876 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-09-08 08:22:49.906 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=gettingStarted, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/, dataDir=data/}
+2015-09-08 08:22:49.907 INFO  (main) [   ] o.a.s.c.CoresLocator Found core gettingStarted in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/
+2015-09-08 08:22:49.908 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/, dataDir=data/}
+2015-09-08 08:22:49.908 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/
+2015-09-08 08:22:49.908 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2015-09-08 08:22:49.914 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/'
+2015-09-08 08:22:49.914 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/'
+2015-09-08 08:22:49.915 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server
+2015-09-08 08:22:49.915 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-09-08 08:22:49.942 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}
+2015-09-08 08:22:49.983 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@74e28667{HTTP/1.1}{0.0.0.0:8983}
+2015-09-08 08:22:49.983 INFO  (main) [   ] o.e.j.s.Server Started @1905ms
+2015-09-08 08:22:50.016 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-08 08:22:50.018 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-08 08:22:50.022 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-08 08:22:50.022 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-08 08:22:50.025 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-08 08:22:50.025 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-08 08:22:50.025 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-08 08:22:50.025 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-08 08:22:50.027 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-08 08:22:50.027 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-08 08:22:50.027 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-08 08:22:50.027 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-08 08:22:50.027 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-08 08:22:50.027 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-08 08:22:50.026 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-08 08:22:50.029 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-08 08:22:50.029 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-08 08:22:50.029 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-08 08:22:50.029 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-08 08:22:50.029 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-08 08:22:50.028 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-08 08:22:50.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-08 08:22:50.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-08 08:22:50.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-08 08:22:50.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-08 08:22:50.030 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-08 08:22:50.030 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-08 08:22:50.031 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-08 08:22:50.032 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-08 08:22:50.032 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-08 08:22:50.032 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-08 08:22:50.032 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-08 08:22:50.032 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-08 08:22:50.033 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-08 08:22:50.034 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-08 08:22:50.034 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-08 08:22:50.034 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-08 08:22:50.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-08 08:22:50.034 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-08 08:22:50.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-08 08:22:50.035 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-08 08:22:50.036 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-08 08:22:50.036 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-08 08:22:50.036 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-08 08:22:50.036 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-08 08:22:50.037 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-08 08:22:50.037 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-08 08:22:50.037 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-08 08:22:50.037 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-08 08:22:50.037 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-08 08:22:50.038 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-08 08:22:50.038 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-08 08:22:50.038 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-08 08:22:50.038 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-08 08:22:50.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-08 08:22:50.039 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-08 08:22:50.040 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-08 08:22:50.040 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-08 08:22:50.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-08 08:22:50.041 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-08 08:22:50.042 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-08 08:22:50.043 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-08 08:22:50.044 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-08 08:22:50.044 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-08 08:22:50.045 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-08 08:22:50.046 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-08 08:22:50.046 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-08 08:22:50.046 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-08 08:22:50.046 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-08 08:22:50.047 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-08 08:22:50.168 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-08 08:22:50.170 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-08 08:22:50.312 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-08 08:22:50.313 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-08 08:22:50.333 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/conf/managed-schema
+2015-09-08 08:22:50.333 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf/managed-schema
+2015-09-08 08:22:50.423 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [gettingStarted] Schema name=example-data-driven-schema
+2015-09-08 08:22:50.455 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [strandsOld] Schema name=example-data-driven-schema
+2015-09-08 08:22:50.935 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-08 08:22:50.941 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-08 08:22:51.204 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-08 08:22:51.208 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-08 08:22:51.210 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-08 08:22:51.213 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-08 08:22:51.265 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/conf'
+2015-09-08 08:22:51.266 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'gettingStarted' using configuration from instancedir /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/
+2015-09-08 08:22:51.267 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-08 08:22:51.274 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf'
+2015-09-08 08:22:51.274 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'strandsOld' using configuration from instancedir /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/
+2015-09-08 08:22:51.274 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-08 08:22:51.286 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore [[gettingStarted] ] Opening new SolrCore at [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/], dataDir=[null]
+2015-09-08 08:22:51.286 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore [[strandsOld] ] Opening new SolrCore at [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/], dataDir=[null]
+2015-09-08 08:22:51.288 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-08 08:22:51.288 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-08 08:22:51.293 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore [[strandsOld] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-08 08:22:51.293 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore [[strandsOld] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-08 08:22:51.293 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore [[gettingStarted] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-08 08:22:51.294 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore [[gettingStarted] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-08 08:22:51.311 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data
+2015-09-08 08:22:51.311 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/data
+2015-09-08 08:22:51.312 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/data/index/
+2015-09-08 08:22:51.312 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index/
+2015-09-08 08:22:51.313 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/data/index
+2015-09-08 08:22:51.313 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index
+2015-09-08 08:22:51.331 INFO  (OldIndexDirectoryCleanupThreadForCore-gettingStarted) [   x:gettingStarted] o.a.s.c.SolrCore Looking for old index directories to cleanup for core gettingStarted in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/data/
+2015-09-08 08:22:51.332 INFO  (OldIndexDirectoryCleanupThreadForCore-strandsOld) [   x:strandsOld] o.a.s.c.SolrCore Looking for old index directories to cleanup for core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/
+2015-09-08 08:22:51.336 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-08 08:22:51.338 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-08 08:22:51.344 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-08 08:22:51.345 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-08 08:22:51.469 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-08 08:22:51.469 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-08 08:22:51.577 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-08 08:22:51.584 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-08 08:22:51.625 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.628 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.629 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.629 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.630 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.631 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.632 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.632 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-08 08:22:51.650 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-08 08:22:51.650 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-08 08:22:51.654 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-08 08:22:51.654 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-08 08:22:51.656 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-08 08:22:51.656 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-08 08:22:51.657 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-08 08:22:51.657 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-08 08:22:51.657 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-08 08:22:51.659 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-08 08:22:51.660 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-08 08:22:51.660 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-08 08:22:51.661 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-08 08:22:51.661 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-08 08:22:51.661 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-08 08:22:51.661 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-08 08:22:51.662 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-08 08:22:51.663 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-08 08:22:51.671 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-08 08:22:51.672 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-08 08:22:51.673 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-08 08:22:51.673 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-08 08:22:51.701 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-08 08:22:51.701 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-08 08:22:51.703 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-08 08:22:51.704 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-08 08:22:51.772 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2015-09-08 08:22:51.773 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 3
+2015-09-08 08:22:51.774 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2015-09-08 08:22:51.775 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.SolrCore newest commit generation = 5
+2015-09-08 08:22:51.835 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.s.SolrIndexSearcher Opening Searcher@48ee57dc[gettingStarted] main
+2015-09-08 08:22:51.837 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@63e96066[strandsOld] main
+2015-09-08 08:22:51.844 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf
+2015-09-08 08:22:51.844 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf}
+2015-09-08 08:22:51.845 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/conf
+2015-09-08 08:22:51.845 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/conf}
+2015-09-08 08:22:51.855 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf
+2015-09-08 08:22:51.855 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-08 08:22:51.858 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/conf
+2015-09-08 08:22:51.858 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-08 08:22:51.862 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-08 08:22:51.867 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-08 08:22:51.870 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-08 08:22:51.870 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-08 08:22:51.872 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-08 08:22:51.872 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-08 08:22:51.875 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf/elevate.xml
+2015-09-08 08:22:51.875 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/conf/elevate.xml
+2015-09-08 08:22:51.920 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-08 08:22:51.924 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-7-thread-1-processing-x:gettingStarted) [   x:gettingStarted] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@48ee57dc[gettingStarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C707) Uninverting(_1(5.3.0):C35) Uninverting(_2(5.3.0):C1142) Uninverting(_3(5.3.0):C18) Uninverting(_4(5.3.0):C1273) Uninverting(_5(5.3.0):C25) Uninverting(_6(5.3.0):C573)))}
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-7-thread-1-processing-x:gettingStarted) [   x:gettingStarted] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@63e96066[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359) Uninverting(_1(5.3.0):C1)))}
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@63e96066[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359) Uninverting(_1(5.3.0):C1)))}
+2015-09-08 08:22:51.925 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-08 08:22:51.924 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-08 08:22:51.924 INFO  (searcherExecutor-7-thread-1-processing-x:gettingStarted) [   x:gettingStarted] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-08 08:22:51.925 INFO  (searcherExecutor-7-thread-1-processing-x:gettingStarted) [   x:gettingStarted] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-08 08:22:51.925 INFO  (searcherExecutor-7-thread-1-processing-x:gettingStarted) [   x:gettingStarted] o.a.s.c.SolrCore [gettingStarted] Registered new searcher Searcher@48ee57dc[gettingStarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C707) Uninverting(_1(5.3.0):C35) Uninverting(_2(5.3.0):C1142) Uninverting(_3(5.3.0):C18) Uninverting(_4(5.3.0):C1273) Uninverting(_5(5.3.0):C25) Uninverting(_6(5.3.0):C573)))}
+2015-09-08 08:22:51.926 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-08 08:22:51.928 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-08 08:22:51.944 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.VersionInfo Found MAX value 1511720423768719360 from Terms for _version_ in index
+2015-09-08 08:22:51.948 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.u.UpdateLog Took 23 ms to seed version buckets with highest version 1511720423768719360
+2015-09-08 08:22:51.950 INFO  (coreLoadExecutor-6-thread-2) [   x:strandsOld] o.a.s.c.CoreContainer registering core: strandsOld
+2015-09-08 08:22:51.962 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.VersionInfo Found MAX value 1510485320549793792 from Terms for _version_ in index
+2015-09-08 08:22:51.968 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.u.UpdateLog Took 43 ms to seed version buckets with highest version 1510485320549793792
+2015-09-08 08:22:51.968 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingStarted] o.a.s.c.CoreContainer registering core: gettingStarted
+2015-09-08 08:23:00.778 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441700580759} status=0 QTime=13 
+2015-09-08 08:23:00.849 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1441700580816} status=0 QTime=29 
+2015-09-08 08:23:11.380 ERROR (qtp434176574-18) [   x:strandsOld] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf/admin-extra.menu-top.html]
+2015-09-08 08:23:11.384 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1441700591373} status=404 QTime=6 
+2015-09-08 08:23:11.384 ERROR (qtp434176574-21) [   x:strandsOld] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf/admin-extra.menu-bottom.html]
+2015-09-08 08:23:11.384 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1441700591374} status=404 QTime=0 
+2015-09-08 08:23:11.430 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441700591409} status=0 QTime=4 
+2015-09-08 08:23:11.447 ERROR (qtp434176574-13) [   x:strandsOld] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/conf/admin-extra.html]
+2015-09-08 08:23:11.448 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441700591428} status=404 QTime=1 
+2015-09-08 08:23:11.450 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/replication params={wt=json&command=details&_=1441700591419} status=0 QTime=10 
+2015-09-08 08:23:11.456 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441700591434} status=503 QTime=1 
+2015-09-08 08:23:11.477 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/admin/system params={wt=json&_=1441700591422} status=0 QTime=27 
+2015-09-08 08:23:22.725 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=userEmail:tan@gmail.com+AND+*&fl=&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=32 
+2015-09-08 08:56:41.629 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702601588} hits=0 status=0 QTime=31 
+2015-09-08 08:56:44.468 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:56:44.509 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2015-09-08 08:56:44.509 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 4
+2015-09-08 08:56:44.513 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@6436097c[strandsOld] main
+2015-09-08 08:56:44.515 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:56:44.516 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@6436097c[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359) Uninverting(_1(5.3.0):C1) Uninverting(_2(5.3.0):C1)))}
+2015-09-08 08:56:44.517 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:56:44.517 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@6436097c[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359) Uninverting(_1(5.3.0):C1) Uninverting(_2(5.3.0):C1)))}
+2015-09-08 08:56:44.518 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[4147d0b9-5cf7-41c4-9868-032d8adb20df (1511734750144888832)],commit=} 0 100
+2015-09-08 08:56:44.529 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandName:*+AND+brandId:1+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=8 
+2015-09-08 08:56:44.539 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:56:44.556 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2015-09-08 08:56:44.556 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 5
+2015-09-08 08:56:44.558 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@450d414b[strandsOld] main
+2015-09-08 08:56:44.559 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:56:44.560 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@450d414b[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_2(5.3.0):C1) Uninverting(_3(5.3.0):C1)))}
+2015-09-08 08:56:44.560 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:56:44.560 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@450d414b[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_2(5.3.0):C1) Uninverting(_3(5.3.0):C1)))}
+2015-09-08 08:56:44.561 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[3b37b0f9-54b9-49fe-ad83-c754f16de3bf (1511734750252892160)],commit=} 0 28
+2015-09-08 08:56:46.682 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702606655} hits=1 status=0 QTime=21 
+2015-09-08 08:59:10.187 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@7ec70ea6[strandsOld] realtime
+2015-09-08 08:59:10.188 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:10.192 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2015-09-08 08:59:10.192 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 6
+2015-09-08 08:59:10.194 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@206446ac[strandsOld] main
+2015-09-08 08:59:10.195 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:10.195 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@206446ac[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_3(5.3.0):C1)))}
+2015-09-08 08:59:10.195 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:59:10.195 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@206446ac[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_3(5.3.0):C1)))}
+2015-09-08 08:59:10.199 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=brandId:1 AND userId:1039525517 AND * (-1511734902953869312),commit=} 0 37
+2015-09-08 08:59:10.207 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandName:*+AND+brandId:1+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=4 
+2015-09-08 08:59:10.222 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:10.236 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+2015-09-08 08:59:10.236 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 7
+2015-09-08 08:59:10.238 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@1b35c9e0[strandsOld] main
+2015-09-08 08:59:10.239 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:10.239 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@1b35c9e0[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_4(5.3.0):C1)))}
+2015-09-08 08:59:10.240 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:59:10.240 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@1b35c9e0[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_4(5.3.0):C1)))}
+2015-09-08 08:59:10.243 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[3b37b0f9-54b9-49fe-ad83-c754f16de3bf (1511734903011540992)],commit=} 0 30
+2015-09-08 08:59:14.550 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702754539} hits=0 status=0 QTime=4 
+2015-09-08 08:59:22.859 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:22.859 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 08:59:22.859 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 08:59:22.860 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:22.860 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=brandId:1 AND userId:1039525517 AND * (-1511734916264493056),commit=} 0 4
+2015-09-08 08:59:22.867 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandName:*+AND+brandId:1+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=2 
+2015-09-08 08:59:22.875 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:22.890 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+2015-09-08 08:59:22.890 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 8
+2015-09-08 08:59:22.891 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@e09557b[strandsOld] main
+2015-09-08 08:59:22.892 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:22.892 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@e09557b[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_5(5.3.0):C1)))}
+2015-09-08 08:59:22.892 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:59:22.893 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@e09557b[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_5(5.3.0):C1)))}
+2015-09-08 08:59:22.895 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[3b37b0f9-54b9-49fe-ad83-c754f16de3bf (1511734916280221696)],commit=} 0 24
+2015-09-08 08:59:25.241 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702765233} hits=0 status=0 QTime=4 
+2015-09-08 08:59:26.851 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702766846} hits=0 status=0 QTime=1 
+2015-09-08 08:59:36.990 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:36.990 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 08:59:36.991 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 08:59:36.991 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:36.991 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=brandId:1 AND userId:1039525517 AND * (-1511734931081920512),commit=} 0 5
+2015-09-08 08:59:36.996 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandName:*+AND+brandId:1+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=2 
+2015-09-08 08:59:37.002 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:37.017 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+2015-09-08 08:59:37.018 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 9
+2015-09-08 08:59:37.019 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@18c5321e[strandsOld] main
+2015-09-08 08:59:37.020 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:37.020 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@18c5321e[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_6(5.3.0):C1)))}
+2015-09-08 08:59:37.020 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:59:37.020 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@18c5321e[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_6(5.3.0):C1)))}
+2015-09-08 08:59:37.023 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[3b37b0f9-54b9-49fe-ad83-c754f16de3bf (1511734931095552000)],commit=} 0 25
+2015-09-08 08:59:39.090 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702779081} hits=0 status=0 QTime=4 
+2015-09-08 08:59:47.339 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:47.351 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+2015-09-08 08:59:47.351 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 10
+2015-09-08 08:59:47.353 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@6f290815[strandsOld] main
+2015-09-08 08:59:47.354 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@6f290815[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_6(5.3.0):C1) Uninverting(_7(5.3.0):C1)))}
+2015-09-08 08:59:47.354 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:59:47.354 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:47.354 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@6f290815[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_6(5.3.0):C1) Uninverting(_7(5.3.0):C1)))}
+2015-09-08 08:59:47.355 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[b3604008-5d4d-4463-8d54-8a5e472a0382 (1511734941933633536)],commit=} 0 19
+2015-09-08 08:59:47.359 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandName:*+AND+brandId:1+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=2 
+2015-09-08 08:59:47.365 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 08:59:47.379 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+2015-09-08 08:59:47.379 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 11
+2015-09-08 08:59:47.381 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@3306fc38[strandsOld] main
+2015-09-08 08:59:47.382 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@3306fc38[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1)))}
+2015-09-08 08:59:47.382 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 08:59:47.382 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 08:59:47.383 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@3306fc38[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1)))}
+2015-09-08 08:59:47.386 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[3b37b0f9-54b9-49fe-ad83-c754f16de3bf (1511734941961945088)],commit=} 0 24
+2015-09-08 08:59:49.778 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=brandId:*&indent=true&fq=userId:1039525517&wt=json&_=1441702789767} hits=1 status=0 QTime=6 
+2015-09-08 09:00:46.853 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:00:46.869 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+2015-09-08 09:00:46.869 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 12
+2015-09-08 09:00:46.870 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@4ceb80f6[strandsOld] main
+2015-09-08 09:00:46.871 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@4ceb80f6[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1)))}
+2015-09-08 09:00:46.872 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 09:00:46.872 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:00:46.872 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@4ceb80f6[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/1:delGen=1) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1)))}
+2015-09-08 09:00:46.872 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[eff6abcc-9416-4e99-ac0a-a08ecc772aec (1511735004338585600)],commit=} 0 22
+2015-09-08 09:00:46.879 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=userName:*+AND+userId:1+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=3 
+2015-09-08 09:00:46.889 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:00:46.905 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13}
+2015-09-08 09:00:46.905 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 13
+2015-09-08 09:00:46.908 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@3b5572ba[strandsOld] main
+2015-09-08 09:00:46.909 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@3b5572ba[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/2:delGen=2) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1) Uninverting(_a(5.3.0):C1)))}
+2015-09-08 09:00:46.910 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 09:00:46.909 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:00:46.910 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@3b5572ba[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/2:delGen=2) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1) Uninverting(_a(5.3.0):C1)))}
+2015-09-08 09:00:46.911 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[f8e3e2a5-7201-46cd-a795-28403f57044d (1511735004374237184)],commit=} 0 29
+2015-09-08 09:01:08.785 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=userId:1&indent=true&fq=userId%3D1039525517&wt=json&_=1441702868769} hits=0 status=0 QTime=10 
+2015-09-08 09:01:14.998 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=userId%3D1039525517&indent=true&wt=json&_=1441702874987} hits=2 status=0 QTime=4 
+2015-09-08 09:02:16.401 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:design+AND+*&fl=&start=0&sort=&rows=10&wt=json} hits=0 status=0 QTime=1 
+2015-09-08 09:03:02.044 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:fashion+AND+*&fl=&start=0&sort=&rows=10&wt=json} hits=0 status=0 QTime=0 
+2015-09-08 09:03:19.556 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionId:*&indent=true&wt=json&_=1441702999540} hits=1916 status=0 QTime=12 
+2015-09-08 09:03:30.577 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:Utility+AND+*&fl=&start=0&sort=&rows=10&wt=json} hits=1 status=0 QTime=1 
+2015-09-08 09:03:30.583 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:03:30.597 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+2015-09-08 09:03:30.597 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 14
+2015-09-08 09:03:30.598 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@5b65aaa5[strandsOld] main
+2015-09-08 09:03:30.599 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@5b65aaa5[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/2:delGen=2) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1) Uninverting(_a(5.3.0):C1) Uninverting(_b(5.3.0):C1)))}
+2015-09-08 09:03:30.599 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:03:30.600 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 09:03:30.600 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@5b65aaa5[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/2:delGen=2) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1) Uninverting(_a(5.3.0):C1) Uninverting(_b(5.3.0):C1)))}
+2015-09-08 09:03:30.601 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[b5931d34-8f59-44b3-9d1c-ad6b67719cb7 (1511735176021934080)],commit=} 0 21
+2015-09-08 09:03:30.606 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionId:1+AND+connectionName:*+AND+*&fl=followers:followers,id:id&start=0&sort=&rows=100&wt=json} hits=1 status=0 QTime=2 
+2015-09-08 09:03:30.613 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:03:30.629 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@40bd5341; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15}
+2015-09-08 09:03:30.629 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.SolrCore newest commit generation = 15
+2015-09-08 09:03:30.632 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.s.SolrIndexSearcher Opening Searcher@20d7e3b3[strandsOld] main
+2015-09-08 09:03:30.633 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@20d7e3b3[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/3:delGen=3) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1) Uninverting(_a(5.3.0):C1) Uninverting(_b(5.3.0):C1) Uninverting(_c(5.3.0):C1)))}
+2015-09-08 09:03:30.633 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-08 09:03:30.634 INFO  (searcherExecutor-8-thread-1-processing-x:strandsOld) [   x:strandsOld] o.a.s.c.SolrCore [strandsOld] Registered new searcher Searcher@20d7e3b3[strandsOld] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C2359/3:delGen=3) Uninverting(_1(5.3.0):C1) Uninverting(_7(5.3.0):C1) Uninverting(_8(5.3.0):C1) Uninverting(_9(5.3.0):C1) Uninverting(_a(5.3.0):C1) Uninverting(_b(5.3.0):C1) Uninverting(_c(5.3.0):C1)))}
+2015-09-08 09:03:30.635 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:03:30.636 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {add=[ad8e0c70-2adb-405d-9bfb-08210b88406e (1511735176053391360)],commit=} 0 27
+2015-09-08 09:04:16.994 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:utility+AND+*&fl=&start=0&sort=&rows=10&wt=json} hits=0 status=0 QTime=0 
+2015-09-08 09:19:56.885 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:19:56.885 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 09:19:56.885 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 09:19:56.886 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:19:56.887 INFO  (qtp434176574-18) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=productId:* AND connectionId:* AND userId:1039525517 AND * (-1511736210229297152),commit=} 0 10
+2015-09-08 09:19:56.893 ERROR (qtp434176574-20) [   x:strandsOld] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'connectionName:[] AND *': Encountered " "]" "] "" at line 1, column 16.
+Was expecting one of:
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'connectionName:[] AND *': Encountered " "]" "] "" at line 1, column 16.
+Was expecting one of:
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "]" "] "" at line 1, column 16.
+Was expecting one of:
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-08 09:19:56.893 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:[]+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} status=400 QTime=3 
+2015-09-08 09:20:10.896 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:20:10.896 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 09:20:10.897 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 09:20:10.897 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:20:10.897 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=productId:* AND connectionId:* AND userId:1039525517 AND * (-1511736224925089792),commit=} 0 5
+2015-09-08 09:20:10.901 ERROR (qtp434176574-14) [   x:strandsOld] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'connectionName:[Utility,Fun] AND *': Encountered " "]" "] "" at line 1, column 27.
+Was expecting one of:
+    "TO" ...
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'connectionName:[Utility,Fun] AND *': Encountered " "]" "] "" at line 1, column 27.
+Was expecting one of:
+    "TO" ...
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "]" "] "" at line 1, column 27.
+Was expecting one of:
+    "TO" ...
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:345)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-08 09:20:10.901 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:[Utility,Fun]+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} status=400 QTime=1 
+2015-09-08 09:20:20.817 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:20:20.817 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 09:20:20.817 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 09:20:20.818 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:20:20.818 INFO  (qtp434176574-17) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=productId:* AND connectionId:* AND userId:1039525517 AND * (-1511736235326963712),commit=} 0 6
+2015-09-08 09:20:20.822 INFO  (qtp434176574-14) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:Utility,Fun+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} hits=0 status=0 QTime=1 
+2015-09-08 09:21:01.153 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:21:01.153 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 09:21:01.153 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 09:21:01.154 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:21:01.155 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=productId:* AND connectionId:* AND userId:1039525517 AND * (-1511736277621276672),commit=} 0 8
+2015-09-08 09:21:01.159 ERROR (qtp434176574-21) [   x:strandsOld] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'connectionName:{Utility,Fun} AND *': Encountered " "}" "} "" at line 1, column 27.
+Was expecting one of:
+    "TO" ...
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'connectionName:{Utility,Fun} AND *': Encountered " "}" "} "" at line 1, column 27.
+Was expecting one of:
+    "TO" ...
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "}" "} "" at line 1, column 27.
+Was expecting one of:
+    "TO" ...
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:345)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-08 09:21:01.160 INFO  (qtp434176574-21) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:{Utility,Fun}+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} status=400 QTime=2 
+2015-09-08 09:25:56.224 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-08 09:25:56.224 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-08 09:25:56.224 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-08 09:25:56.225 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-08 09:25:56.225 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.u.p.LogUpdateProcessor [strandsOld] webapp=/solr path=/update params={commit=true} {deleteByQuery=productId:* AND connectionId:* AND userId:1039525517 AND * (-1511736587026694144),commit=} 0 6
+2015-09-08 11:20:08.520 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441711208514} status=0 QTime=0 
+2015-09-08 11:20:08.579 INFO  (qtp434176574-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1441711208556} status=0 QTime=20 
+2015-09-08 11:20:45.118 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441711245113} status=0 QTime=0 
+2015-09-08 11:20:45.159 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1441711245142} status=0 QTime=13 
+2015-09-08 11:20:54.078 INFO  (qtp434176574-20) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=userId:"-1170023132"&indent=true&wt=json&_=1441711254068} hits=74 status=0 QTime=1 
+2015-09-08 15:37:14.832 INFO  (qtp434176574-16) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:*+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} hits=152 status=0 QTime=61 
+2015-09-09 06:55:57.384 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:*+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} hits=152 status=0 QTime=15 
+2015-09-09 07:15:42.775 INFO  (qtp434176574-13) [   x:strandsOld] o.a.s.c.S.Request [strandsOld] webapp=/solr path=/select params={q=connectionName:*+AND+*&fl=connectionId:connectionId,connectionName:connectionName&start=0&sort=&rows=100&wt=json} hits=152 status=0 QTime=0 

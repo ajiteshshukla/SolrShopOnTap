@@ -1,0 +1,194 @@
+2015-11-01 10:29:10.808 INFO  (main) [   ] o.e.j.u.log Logging initialized @347ms
+2015-11-01 10:29:11.036 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-11-01 10:29:11.056 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-11-01 10:29:11.058 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/contexts/] at interval 0
+2015-11-01 10:29:11.529 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-11-01 10:29:11.541 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-11-01 10:29:11.548 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2015-11-01 10:29:11.565 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-11-01 10:29:11.565 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr
+2015-11-01 10:29:11.568 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/'
+2015-11-01 10:29:11.720 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/solr.xml
+2015-11-01 10:29:11.792 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr
+2015-11-01 10:29:11.815 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2015-11-01 10:29:11.815 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/]
+2015-11-01 10:29:11.816 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/lib
+2015-11-01 10:29:11.816 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/lib).
+2015-11-01 10:29:11.832 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-11-01 10:29:12.039 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-11-01 10:29:12.041 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-11-01 10:29:12.042 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-11-01 10:29:12.044 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-11-01 10:29:12.044 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-11-01 10:29:12.077 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr
+2015-11-01 10:29:12.104 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=shopOnTap, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap, absoluteInstDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/, dataDir=data/}
+2015-11-01 10:29:12.105 INFO  (main) [   ] o.a.s.c.CoresLocator Found core shopOnTap in /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/
+2015-11-01 10:29:12.105 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-11-01 10:29:12.109 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/'
+2015-11-01 10:29:12.109 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server
+2015-11-01 10:29:12.109 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-11-01 10:29:12.128 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp}
+2015-11-01 10:29:12.153 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7161d8d1{HTTP/1.1}{0.0.0.0:8983}
+2015-11-01 10:29:12.153 INFO  (main) [   ] o.e.j.s.Server Started @1696ms
+2015-11-01 10:29:12.160 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-11-01 10:29:12.188 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-11-01 10:29:12.195 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-11-01 10:29:12.316 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-11-01 10:29:12.324 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+2015-11-01 10:29:12.372 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [shopOnTap] Schema name=example
+2015-11-01 10:29:12.671 ERROR (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Error creating core [shopOnTap]: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:646)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 13 more
+2015-11-01 10:29:12.674 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [shopOnTap]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:476)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [shopOnTap]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:741)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:646)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 13 more
+2015-11-01 10:29:34.538 ERROR (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'shopOnTap' is not available due to init failure: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:646)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 13 more
+
+2015-11-01 10:30:33.509 ERROR (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'shopOnTap' is not available due to init failure: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core shopOnTap: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id. Schema file is /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'uuid' specified on field id
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:646)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:492)
+	... 13 more
+
+2015-11-01 10:31:44.792 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7161d8d1{HTTP/1.1}{0.0.0.0:8983}
+2015-11-01 10:31:44.793 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1165303897
+2015-11-01 10:31:44.796 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp}

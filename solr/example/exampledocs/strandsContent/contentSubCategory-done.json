@@ -1,0 +1,34 @@
+[
+  {
+    "contentId":1,
+    "subCategoryId":1
+  },
+  {
+    "contentId":1,
+    "subCategoryId":22
+  },
+  {
+    "contentId":1,
+    "subCategoryId":10
+  },
+  {
+    "contentId":2,
+    "subCategoryId":2
+  },
+  {
+    "contentId":2,
+    "subCategoryId":3
+  },
+  {
+    "contentId":3,
+    "subCategoryId":4
+  },
+  {
+    "contentId":3,
+    "subCategoryId":5
+  },
+  {
+    "contentId":3,
+    "subCategoryId":6
+  }
+]

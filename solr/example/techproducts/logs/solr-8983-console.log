@@ -1,0 +1,5 @@
+WARNING: System properties and/or JVM args set.  Consider using --dry-run or --exec
+Sep 02, 2015 8:32:18 AM org.restlet.Application start
+INFO: Starting org.apache.solr.rest.SolrSchemaRestApi application
+Sep 02, 2015 8:32:19 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2015-09-02	08:32:19	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8983	GET	/solr/schema/fields	wt=json	200	-	0	55	http://localhost:8983	curl/7.37.1	-

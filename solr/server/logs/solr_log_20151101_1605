@@ -1,0 +1,135 @@
+2015-11-01 10:31:58.649 INFO  (main) [   ] o.e.j.u.log Logging initialized @357ms
+2015-11-01 10:31:58.868 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-11-01 10:31:58.888 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-11-01 10:31:58.890 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/contexts/] at interval 0
+2015-11-01 10:31:59.474 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-11-01 10:31:59.485 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-11-01 10:31:59.494 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2015-11-01 10:31:59.508 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-11-01 10:31:59.509 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr
+2015-11-01 10:31:59.513 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/'
+2015-11-01 10:31:59.641 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/solr.xml
+2015-11-01 10:31:59.706 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr
+2015-11-01 10:31:59.726 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2015-11-01 10:31:59.726 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/]
+2015-11-01 10:31:59.726 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/lib
+2015-11-01 10:31:59.726 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/lib).
+2015-11-01 10:31:59.743 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-11-01 10:31:59.947 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-11-01 10:31:59.949 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-11-01 10:31:59.950 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-11-01 10:31:59.951 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-11-01 10:31:59.951 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-11-01 10:31:59.986 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr
+2015-11-01 10:32:00.014 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=shopOnTap, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap, absoluteInstDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/, dataDir=data/}
+2015-11-01 10:32:00.015 INFO  (main) [   ] o.a.s.c.CoresLocator Found core shopOnTap in /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/
+2015-11-01 10:32:00.016 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-11-01 10:32:00.020 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/'
+2015-11-01 10:32:00.020 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server
+2015-11-01 10:32:00.020 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-11-01 10:32:00.042 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp}
+2015-11-01 10:32:00.065 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7161d8d1{HTTP/1.1}{0.0.0.0:8983}
+2015-11-01 10:32:00.065 INFO  (main) [   ] o.e.j.s.Server Started @1776ms
+2015-11-01 10:32:00.066 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-11-01 10:32:00.095 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-11-01 10:32:00.101 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-11-01 10:32:00.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-11-01 10:32:00.215 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf/schema.xml
+2015-11-01 10:32:00.267 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [shopOnTap] Schema name=example
+2015-11-01 10:32:00.541 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-11-01 10:32:00.650 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-01 10:32:00.659 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-01 10:32:00.665 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf'
+2015-11-01 10:32:00.666 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'shopOnTap' using configuration from instancedir /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/
+2015-11-01 10:32:00.667 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-11-01 10:32:00.714 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore [[shopOnTap] ] Opening new SolrCore at [/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/], dataDir=[null]
+2015-11-01 10:32:00.716 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-11-01 10:32:00.728 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data
+2015-11-01 10:32:00.728 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/index/
+2015-11-01 10:32:00.729 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/index
+2015-11-01 10:32:00.746 INFO  (OldIndexDirectoryCleanupThreadForCore-shopOnTap) [   x:shopOnTap] o.a.s.c.SolrCore Looking for old index directories to cleanup for core shopOnTap in /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/
+2015-11-01 10:32:00.825 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-11-01 10:32:00.868 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-01 10:32:00.870 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-01 10:32:00.871 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-01 10:32:00.872 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-01 10:32:00.883 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-11-01 10:32:00.883 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-11-01 10:32:00.885 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-11-01 10:32:00.885 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-11-01 10:32:00.886 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-11-01 10:32:00.895 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-11-01 10:32:00.896 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-11-01 10:32:00.902 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-11-01 10:32:00.903 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-11-01 10:32:00.938 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@29315395; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-11-01 10:32:00.939 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.SolrCore newest commit generation = 1
+2015-11-01 10:32:00.950 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.s.SolrIndexSearcher Opening Searcher@6cae0f89[shopOnTap] main
+2015-11-01 10:32:00.956 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf
+2015-11-01 10:32:00.956 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf}
+2015-11-01 10:32:00.964 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf
+2015-11-01 10:32:00.965 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/conf
+2015-11-01 10:32:00.965 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-11-01 10:32:00.965 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-11-01 10:32:00.973 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-11-01 10:32:00.974 INFO  (searcherExecutor-7-thread-1-processing-x:shopOnTap) [   x:shopOnTap] o.a.s.c.SolrCore [shopOnTap] Registered new searcher Searcher@6cae0f89[shopOnTap] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-11-01 10:32:00.974 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-11-01 10:32:00.975 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-11-01 10:32:00.975 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-11-01 10:32:00.975 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1516632980560281600
+2015-11-01 10:32:00.979 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.u.UpdateLog Took 5 ms to seed version buckets with highest version 1516632980560281600
+2015-11-01 10:32:00.980 INFO  (coreLoadExecutor-6-thread-1) [   x:shopOnTap] o.a.s.c.CoreContainer registering core: shopOnTap
+2015-11-01 10:32:14.970 INFO  (qtp434176574-17) [   x:shopOnTap] o.a.s.u.p.LogUpdateProcessor [shopOnTap] webapp=/solr path=/update params={commit=true} {} 0 34
+2015-11-01 10:32:14.971 ERROR (qtp434176574-17) [   x:shopOnTap] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:470)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:134)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-11-01 10:35:38.845 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7161d8d1{HTTP/1.1}{0.0.0.0:8983}
+2015-11-01 10:35:38.846 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1165303897
+2015-11-01 10:35:38.847 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.SolrCore [shopOnTap]  CLOSING SolrCore org.apache.solr.core.SolrCore@23ebb6e1
+2015-11-01 10:35:38.848 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2015-11-01 10:35:38.848 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-11-01 10:35:38.849 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-11-01 10:35:38.849 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-11-01 10:35:38.852 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.SolrCore [shopOnTap] Closing main searcher on request.
+2015-11-01 10:35:38.853 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-11-01 10:35:38.854 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory looking to close /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data [CachedDir<<refCount=0;path=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data;done=false>>]
+2015-11-01 10:35:38.855 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data
+2015-11-01 10:35:38.855 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory looking to close /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/index [CachedDir<<refCount=0;path=/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/index;done=false>>]
+2015-11-01 10:35:38.855 INFO  (ShutdownMonitor) [   x:shopOnTap] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr/shopOnTap/data/index
+2015-11-01 10:35:38.857 INFO  (ShutdownMonitor) [   x:shopOnTap] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/aasha.medhi/Documents/workspaceShopOnTap/solr/server/solr-webapp/webapp}

@@ -1,0 +1,294 @@
+2015-10-16 06:33:24.792 INFO  (main) [   ] o.e.j.u.log Logging initialized @355ms
+2015-10-16 06:33:25.011 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-10-16 06:33:25.040 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-10-16 06:33:25.043 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/contexts/] at interval 0
+2015-10-16 06:33:25.935 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-10-16 06:33:25.952 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-10-16 06:33:25.964 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2015-10-16 06:33:25.982 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-10-16 06:33:25.983 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-16 06:33:25.986 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/'
+2015-10-16 06:33:26.132 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/solr.xml
+2015-10-16 06:33:26.225 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-16 06:33:26.246 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2015-10-16 06:33:26.246 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/]
+2015-10-16 06:33:26.246 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib
+2015-10-16 06:33:26.246 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/lib).
+2015-10-16 06:33:26.268 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-10-16 06:33:26.506 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-10-16 06:33:26.509 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-10-16 06:33:26.509 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-10-16 06:33:26.511 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-10-16 06:33:26.511 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-10-16 06:33:26.553 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr
+2015-10-16 06:33:26.590 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=gettingStarted, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/, dataDir=data/}
+2015-10-16 06:33:26.591 INFO  (main) [   ] o.a.s.c.CoresLocator Found core gettingStarted in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/gettingStarted/
+2015-10-16 06:33:26.593 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsContent, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/, dataDir=data/}
+2015-10-16 06:33:26.593 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsContent in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/
+2015-10-16 06:33:26.594 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/, dataDir=data/}
+2015-10-16 06:33:26.594 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/
+2015-10-16 06:33:26.594 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsOld, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/, dataDir=data/}
+2015-10-16 06:33:26.595 INFO  (main) [   ] o.a.s.c.CoresLocator Found core strandsOld in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/
+2015-10-16 06:33:26.595 INFO  (main) [   ] o.a.s.c.CoresLocator Found 4 core definitions
+2015-10-16 06:33:26.600 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2015-10-16 06:33:26.602 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [strandsOld], with instancedirs [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsOld/] and [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsTest/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:511)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:428)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:132)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:109)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2015-10-16 06:33:26.602 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-10-16 06:33:26.613 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}
+2015-10-16 06:33:26.627 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@75d3a5e0{HTTP/1.1}{0.0.0.0:8983}
+2015-10-16 06:33:26.627 INFO  (main) [   ] o.e.j.s.Server Started @2193ms
+2015-10-16 06:33:35.827 INFO  (qtp434176574-20) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=data&name=strandsContent&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=strandsContent&config=solrconfig.xml&_=1444977215699
+2015-10-16 06:33:35.830 INFO  (qtp434176574-20) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=strandsContent, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=strandsContent, absoluteInstDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/, dataDir=data}
+2015-10-16 06:33:35.831 INFO  (qtp434176574-20) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/'
+2015-10-16 06:33:35.879 INFO  (qtp434176574-20) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-10-16 06:33:35.923 INFO  (qtp434176574-20) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-10-16 06:33:35.947 INFO  (qtp434176574-20) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-10-16 06:33:36.127 INFO  (qtp434176574-20) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-10-16 06:33:36.249 INFO  (qtp434176574-20) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/schema.xml
+2015-10-16 06:33:36.378 INFO  (qtp434176574-20) [   ] o.a.s.s.IndexSchema [strandsContent] Schema name=example
+2015-10-16 06:33:36.723 INFO  (qtp434176574-20) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-10-16 06:33:36.894 INFO  (qtp434176574-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-10-16 06:33:36.906 INFO  (qtp434176574-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-10-16 06:33:36.916 INFO  (qtp434176574-20) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf'
+2015-10-16 06:33:36.918 INFO  (qtp434176574-20) [   ] o.a.s.c.CoreContainer Creating SolrCore 'strandsContent' using configuration from instancedir /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/
+2015-10-16 06:33:36.919 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-10-16 06:33:36.942 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore [[strandsContent] ] Opening new SolrCore at [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/], dataDir=[null]
+2015-10-16 06:33:36.944 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-10-16 06:33:36.963 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data
+2015-10-16 06:33:36.964 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index/
+2015-10-16 06:33:36.965 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory return new directory for /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index
+2015-10-16 06:33:36.985 INFO  (OldIndexDirectoryCleanupThreadForCore-strandsContent) [   x:strandsContent] o.a.s.c.SolrCore Looking for old index directories to cleanup for core strandsContent in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/
+2015-10-16 06:33:37.086 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-10-16 06:33:37.114 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-16 06:33:37.116 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-16 06:33:37.117 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-16 06:33:37.119 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-10-16 06:33:37.140 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-10-16 06:33:37.141 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-10-16 06:33:37.143 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-10-16 06:33:37.143 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-10-16 06:33:37.144 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-10-16 06:33:37.154 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-10-16 06:33:37.155 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-10-16 06:33:37.164 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-10-16 06:33:37.164 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-10-16 06:33:37.198 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3ac7071; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-10-16 06:33:37.199 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore newest commit generation = 1
+2015-10-16 06:33:37.208 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.s.SolrIndexSearcher Opening Searcher@539f1145[strandsContent] main
+2015-10-16 06:33:37.213 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf
+2015-10-16 06:33:37.213 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf}
+2015-10-16 06:33:37.220 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf
+2015-10-16 06:33:37.221 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf
+2015-10-16 06:33:37.221 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-10-16 06:33:37.221 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-10-16 06:33:37.230 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-10-16 06:33:37.231 INFO  (searcherExecutor-7-thread-1-processing-x:strandsContent) [   x:strandsContent] o.a.s.c.SolrCore [strandsContent] Registered new searcher Searcher@539f1145[strandsContent] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-10-16 06:33:37.232 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-10-16 06:33:37.232 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-10-16 06:33:37.232 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-10-16 06:33:37.232 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1515168430536261632
+2015-10-16 06:33:37.235 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.u.UpdateLog Took 3 ms to seed version buckets with highest version 1515168430536261632
+2015-10-16 06:33:37.236 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.CoreContainer registering core: strandsContent
+2015-10-16 06:33:37.237 ERROR (qtp434176574-20) [   x:strandsContent] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'strandsContent': Could not create a new core in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/as another core is already defined there
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not create a new core in /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/as another core is already defined there
+	at org.apache.solr.core.CorePropertiesLocator.create(CorePropertiesLocator.java:59)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:632)
+	... 27 more
+
+2015-10-16 06:33:37.238 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=strandsContent&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=strandsContent&config=solrconfig.xml&_=1444977215699} status=400 QTime=1431 
+2015-10-16 06:33:38.417 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444977218410} status=0 QTime=1 
+2015-10-16 06:33:38.477 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1444977218445} status=0 QTime=26 
+2015-10-16 06:33:38.496 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444977218489} status=0 QTime=2 
+2015-10-16 06:33:38.538 INFO  (qtp434176574-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1444977218529} status=0 QTime=0 
+2015-10-16 06:33:42.797 ERROR (qtp434176574-12) [   x:strandsContent] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/admin-extra.menu-top.html]
+2015-10-16 06:33:42.799 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1444977222791} status=404 QTime=3 
+2015-10-16 06:33:42.812 ERROR (qtp434176574-12) [   x:strandsContent] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/admin-extra.menu-bottom.html]
+2015-10-16 06:33:42.812 INFO  (qtp434176574-12) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1444977222792} status=404 QTime=0 
+2015-10-16 06:33:42.837 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1444977222824} status=0 QTime=1 
+2015-10-16 06:33:42.841 INFO  (qtp434176574-21) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/replication params={wt=json&command=details&_=1444977222830} status=0 QTime=2 
+2015-10-16 06:33:42.848 ERROR (qtp434176574-20) [   x:strandsContent] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/conf/admin-extra.html]
+2015-10-16 06:33:42.848 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1444977222836} status=404 QTime=1 
+2015-10-16 06:33:42.853 INFO  (qtp434176574-20) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1444977222838} status=503 QTime=2 
+2015-10-16 06:33:42.866 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/system params={wt=json&_=1444977222833} status=0 QTime=23 
+2015-10-16 06:33:46.001 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1444977225960} hits=0 status=0 QTime=29 
+2015-10-16 06:34:02.675 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.u.p.LogUpdateProcessor [strandsContent] webapp=/solr path=/update params={} {} 0 14
+2015-10-16 06:34:02.676 ERROR (qtp434176574-17) [   x:strandsContent] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.CSVLoaderBase.doAdd(CSVLoaderBase.java:395)
+	at org.apache.solr.handler.loader.SingleThreadedCSVLoader.addDoc(CSVLoader.java:44)
+	at org.apache.solr.handler.loader.CSVLoaderBase.load(CSVLoaderBase.java:364)
+	at org.apache.solr.handler.loader.CSVLoader.load(CSVLoader.java:31)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-10-16 06:34:02.683 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-10-16 06:34:02.684 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-10-16 06:34:02.685 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-10-16 06:34:02.685 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.UpdateHandler end_commit_flush
+2015-10-16 06:34:02.686 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.u.p.LogUpdateProcessor [strandsContent] webapp=/solr path=/update params={commit=true} {commit=} 0 4
+2015-10-16 06:34:07.001 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1444977246997} hits=0 status=0 QTime=0 
+2015-10-16 06:34:07.814 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1444977247809} hits=0 status=0 QTime=0 
+2015-10-16 06:34:15.586 INFO  (qtp434176574-17) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1444977255578} status=0 QTime=1 
+2015-10-16 06:34:15.604 INFO  (qtp434176574-19) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1444977255597} status=0 QTime=3 
+2015-10-16 06:35:18.511 INFO  (qtp434176574-15) [   x:strandsContent] o.a.s.u.p.LogUpdateProcessor [strandsContent] webapp=/solr path=/update params={} {} 0 1
+2015-10-16 06:35:18.512 ERROR (qtp434176574-15) [   x:strandsContent] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.CSVLoaderBase.doAdd(CSVLoaderBase.java:395)
+	at org.apache.solr.handler.loader.SingleThreadedCSVLoader.addDoc(CSVLoader.java:44)
+	at org.apache.solr.handler.loader.CSVLoaderBase.load(CSVLoaderBase.java:364)
+	at org.apache.solr.handler.loader.CSVLoader.load(CSVLoader.java:31)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-10-16 06:35:18.522 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-10-16 06:35:18.523 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-10-16 06:35:18.524 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-10-16 06:35:18.524 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.u.UpdateHandler end_commit_flush
+2015-10-16 06:35:18.524 INFO  (qtp434176574-16) [   x:strandsContent] o.a.s.u.p.LogUpdateProcessor [strandsContent] webapp=/solr path=/update params={commit=true} {commit=} 0 1
+2015-10-16 06:35:22.755 INFO  (qtp434176574-21) [   x:strandsContent] o.a.s.c.S.Request [strandsContent] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1444977322746} hits=0 status=0 QTime=0 
+2015-10-16 06:35:26.928 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@75d3a5e0{HTTP/1.1}{0.0.0.0:8983}
+2015-10-16 06:35:26.929 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1165303897
+2015-10-16 06:35:26.930 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.SolrCore [strandsContent]  CLOSING SolrCore org.apache.solr.core.SolrCore@95500b7
+2015-10-16 06:35:26.931 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=2,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2015-10-16 06:35:26.932 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-10-16 06:35:26.933 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-10-16 06:35:26.933 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-10-16 06:35:26.937 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.SolrCore [strandsContent] Closing main searcher on request.
+2015-10-16 06:35:26.940 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-10-16 06:35:26.941 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory looking to close /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data [CachedDir<<refCount=0;path=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data;done=false>>]
+2015-10-16 06:35:26.941 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data
+2015-10-16 06:35:26.942 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory looking to close /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index [CachedDir<<refCount=0;path=/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index;done=false>>]
+2015-10-16 06:35:26.942 INFO  (ShutdownMonitor) [   x:strandsContent] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr/strandsContent/data/index
+2015-10-16 06:35:26.944 INFO  (ShutdownMonitor) [   x:strandsContent] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/Users/aasha.medhi/Documents/strandServer/solr-5.3.0/server/solr-webapp/webapp}
